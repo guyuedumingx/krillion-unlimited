@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.wrangler/
+.env
+.dev.vars
+
+.DS_Store
+.env.*
+!.env.example
+.dev.vars.*
+/backups/
+/*.zip
+/preview*.jpg
+/preview*.png
+/search-console-proof.png
+/adsense-*.png
+/seo-*.png

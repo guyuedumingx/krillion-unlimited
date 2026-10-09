@@ -1,0 +1,694 @@
+{
+  "origin": "https://krillion-practice.guyuedumingx.workers.dev",
+  "version": "2463a1ce-6494-4ffe-85c8-8825cdafecf6",
+  "pages_checked": 112,
+  "sitemap_urls": 112,
+  "failures": [],
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7495
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5401
+    },
+    {
+      "path": "/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6090
+    },
+    {
+      "path": "/scoring/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5577
+    },
+    {
+      "path": "/tips/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5359
+    },
+    {
+      "path": "/daily/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5126
+    },
+    {
+      "path": "/themes/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5192
+    },
+    {
+      "path": "/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7132
+    },
+    {
+      "path": "/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6906
+    },
+    {
+      "path": "/themes/science/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6957
+    },
+    {
+      "path": "/themes/food/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6879
+    },
+    {
+      "path": "/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6884
+    },
+    {
+      "path": "/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7000
+    },
+    {
+      "path": "/faq/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5490
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5392
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5627
+    },
+    {
+      "path": "/es/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7684
+    },
+    {
+      "path": "/es/guides/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5567
+    },
+    {
+      "path": "/es/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6060
+    },
+    {
+      "path": "/es/scoring/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5685
+    },
+    {
+      "path": "/es/tips/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5414
+    },
+    {
+      "path": "/es/daily/",
+      "errors": [],
+      "status": 200,
+      "html_bytes": 5069,
+      "retried_after_network_error": true
+    },
+    {
+      "path": "/es/themes/",
+      "errors": [],
+      "status": 200,
+      "html_bytes": 5292,
+      "retried_after_network_error": true
+    },
+    {
+      "path": "/es/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7127
+    },
+    {
+      "path": "/es/themes/nature/",
+      "errors": [],
+      "status": 200,
+      "html_bytes": 7010,
+      "retried_after_network_error": true
+    },
+    {
+      "path": "/es/themes/science/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7059
+    },
+    {
+      "path": "/es/themes/food/",
+      "errors": [],
+      "status": 200,
+      "html_bytes": 6997,
+      "retried_after_network_error": true
+    },
+    {
+      "path": "/es/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6986
+    },
+    {
+      "path": "/es/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7175
+    },
+    {
+      "path": "/es/faq/",
+      "errors": [],
+      "status": 200,
+      "html_bytes": 5574,
+      "retried_after_network_error": true
+    },
+    {
+      "path": "/es/about/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5440
+    },
+    {
+      "path": "/es/privacy/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5578
+    },
+    {
+      "path": "/pt/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7630
+    },
+    {
+      "path": "/pt/guides/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5422
+    },
+    {
+      "path": "/pt/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5949
+    },
+    {
+      "path": "/pt/scoring/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5613
+    },
+    {
+      "path": "/pt/tips/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5304
+    },
+    {
+      "path": "/pt/daily/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5033
+    },
+    {
+      "path": "/pt/themes/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5202
+    },
+    {
+      "path": "/pt/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7082
+    },
+    {
+      "path": "/pt/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6886
+    },
+    {
+      "path": "/pt/themes/science/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6955
+    },
+    {
+      "path": "/pt/themes/food/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6887
+    },
+    {
+      "path": "/pt/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6897
+    },
+    {
+      "path": "/pt/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7059
+    },
+    {
+      "path": "/pt/faq/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5486
+    },
+    {
+      "path": "/pt/about/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5325
+    },
+    {
+      "path": "/pt/privacy/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5490
+    },
+    {
+      "path": "/fr/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7838
+    },
+    {
+      "path": "/fr/guides/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5669
+    },
+    {
+      "path": "/fr/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6195
+    },
+    {
+      "path": "/fr/scoring/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5798
+    },
+    {
+      "path": "/fr/tips/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5564
+    },
+    {
+      "path": "/fr/daily/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5156
+    },
+    {
+      "path": "/fr/themes/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5342
+    },
+    {
+      "path": "/fr/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7303
+    },
+    {
+      "path": "/fr/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7140
+    },
+    {
+      "path": "/fr/themes/science/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7196
+    },
+    {
+      "path": "/fr/themes/food/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7115
+    },
+    {
+      "path": "/fr/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7121
+    },
+    {
+      "path": "/fr/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7224
+    },
+    {
+      "path": "/fr/faq/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5701
+    },
+    {
+      "path": "/fr/about/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5599
+    },
+    {
+      "path": "/fr/privacy/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5760
+    },
+    {
+      "path": "/de/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7690
+    },
+    {
+      "path": "/de/guides/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5457
+    },
+    {
+      "path": "/de/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6097
+    },
+    {
+      "path": "/de/scoring/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5636
+    },
+    {
+      "path": "/de/tips/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5377
+    },
+    {
+      "path": "/de/daily/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5138
+    },
+    {
+      "path": "/de/themes/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5206
+    },
+    {
+      "path": "/de/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7127
+    },
+    {
+      "path": "/de/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6993
+    },
+    {
+      "path": "/de/themes/science/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7140
+    },
+    {
+      "path": "/de/themes/food/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7033
+    },
+    {
+      "path": "/de/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7061
+    },
+    {
+      "path": "/de/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7090
+    },
+    {
+      "path": "/de/faq/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5568
+    },
+    {
+      "path": "/de/about/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5362
+    },
+    {
+      "path": "/de/privacy/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5625
+    },
+    {
+      "path": "/zh/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7435
+    },
+    {
+      "path": "/zh/guides/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5366
+    },
+    {
+      "path": "/zh/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5902
+    },
+    {
+      "path": "/zh/scoring/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5519
+    },
+    {
+      "path": "/zh/tips/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5245
+    },
+    {
+      "path": "/zh/daily/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5034
+    },
+    {
+      "path": "/zh/themes/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5130
+    },
+    {
+      "path": "/zh/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7074
+    },
+    {
+      "path": "/zh/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6867
+    },
+    {
+      "path": "/zh/themes/science/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6967
+    },
+    {
+      "path": "/zh/themes/food/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6936
+    },
+    {
+      "path": "/zh/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6880
+    },
+    {
+      "path": "/zh/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6943
+    },
+    {
+      "path": "/zh/faq/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5452
+    },
+    {
+      "path": "/zh/about/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5271
+    },
+    {
+      "path": "/zh/privacy/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5484
+    },
+    {
+      "path": "/ja/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7797
+    },
+    {
+      "path": "/ja/guides/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5773
+    },
+    {
+      "path": "/ja/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6311
+    },
+    {
+      "path": "/ja/scoring/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5793
+    },
+    {
+      "path": "/ja/tips/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5651
+    },
+    {
+      "path": "/ja/daily/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5422
+    },
+    {
+      "path": "/ja/themes/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5461
+    },
+    {
+      "path": "/ja/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7435
+    },
+    {
+      "path": "/ja/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7265
+    },
+    {
+      "path": "/ja/themes/science/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7279
+    },
+    {
+      "path": "/ja/themes/food/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 7363
+    },
+    {
+      "path": "/ja/themes/arts/",
+      "errors": [],
+      "status": 200,
+      "html_bytes": 7259,
+      "retried_after_network_error": true
+    },
+    {
+      "path": "/ja/themes/sports/",
+      "errors": [],
+      "status": 200,
+      "html_bytes": 7449,
+      "retried_after_network_error": true
+    },
+    {
+      "path": "/ja/faq/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5921
+    },
+    {
+      "path": "/ja/about/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 5661
+    },
+    {
+      "path": "/ja/privacy/",
+      "status": 200,
+      "errors": [],
+      "html_bytes": 6081
+    }
+  ],
+  "initial_connection_errors": 7,
+  "final_asset_check": {
+    "path": "/i18n.js",
+    "matches_built_asset": true,
+    "note": "Final deployment changed only this asset; all 112 HTML routes are unchanged from the full route audit."
+  }
+}

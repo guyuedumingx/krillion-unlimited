@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "krillion-practice",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-28",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "SITE_ORIGIN": "https://krillion-practice.guyuedumingx.workers.dev",
+    "ADSENSE_PUBLISHER_ID": "ca-pub-1699434602283644"
+  }
+}
