@@ -13,3 +13,36 @@ const insecure=await worker.fetch(new Request('http://unlimited-krillion.com/zh?
 const apex=await worker.fetch(new Request(env.SITE_ORIGIN+'/'),env);assert.equal(apex.status,200);assert.equal(apex.headers.get('Location'),null);assert.ok((await apex.text()).includes(env.SITE_ORIGIN));
 const xml=await(await worker.fetch(new Request(env.SITE_ORIGIN+'/sitemap.xml'),env)).text();assert.equal([...xml.matchAll(/<loc>/g)].length,112);assert.ok(!xml.includes('workers.dev'));assert.ok(xml.includes(env.SITE_ORIGIN+'/zh/'));
 });
+
+test('real AdSense code uses a fresh nonce on every trusted script and never on error pages',async()=>{
+ const source='<head><script type="application/ld+json">{"url":"__ORIGIN__/"}</script><script type="module" src="/app.js"></script></head>';
+ const env={ADSENSE_ENABLED:'true',ADSENSE_PUBLISHER_ID:'ca-pub-1234567890123456',ASSETS:{fetch:async req=>new Response(source,{status:new URL(req.url).pathname==='/missing'?404:200,headers:{'Content-Type':'text/html'}})}};
+ const one=await worker.fetch(new Request('https://example.com/'),env),two=await worker.fetch(new Request('https://example.com/'),env);
+ const body=await one.text(),csp=one.headers.get('Content-Security-Policy');
+ assert.ok(body.includes('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456'));
+ const scripts=[...body.matchAll(/<script\b([^>]*)>/g)];assert.equal(scripts.length,4);
+ const nonces=scripts.map(m=>m[1].match(/nonce="([^"]+)"/)[1]);assert.equal(new Set(nonces).size,1);assert.ok(csp.includes("'nonce-"+nonces[0]+"'"));assert.ok(csp.includes("'strict-dynamic'"));assert.ok(csp.includes("object-src 'none'"));
+ assert.notEqual(csp,two.headers.get('Content-Security-Policy'));assert.equal(one.headers.get('Cache-Control'),'private, no-store');
+ for(const override of [{ADSENSE_ENABLED:'false'},{ADSENSE_PUBLISHER_ID:'invalid'}])assert.ok(!(await(await worker.fetch(new Request('https://example.com/'),{...env,...override})).text()).includes('adsbygoogle.js'));
+ assert.ok(!(await(await worker.fetch(new Request('https://example.com/missing'),env)).text()).includes('adsbygoogle.js'));
+});
+
+test('text sitemap is an equivalent canonical discovery fallback and consent previews are noindex',async()=>{
+ const env={SITE_ORIGIN:'https://example.com',ASSETS:{fetch:async()=>new Response('<head></head>',{headers:{'Content-Type':'text/html'}})}};
+ const txt=await worker.fetch(new Request('https://example.com/sitemap.txt'),env),urls=(await txt.text()).trim().split('\n');
+ const xml=await(await worker.fetch(new Request('https://example.com/sitemap.xml'),env)).text();
+ assert.equal(urls.length,112);assert.equal(new Set(urls).size,112);assert.deepEqual(urls,[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]));
+ assert.ok((await(await worker.fetch(new Request('https://example.com/robots.txt'),env)).text()).includes('Sitemap: https://example.com/sitemap.txt'));
+ assert.equal((await worker.fetch(new Request('https://example.com/?fc=alwaysshow&fctype=gdpr'),env)).headers.get('X-Robots-Tag'),'noindex, follow');
+});
+
+test('display unit is placed in guide content, localized, and excluded from privacy and about',async()=>{
+ const {readFile}=await import('node:fs/promises');
+ const env={ADSENSE_ENABLED:'true',ADSENSE_PUBLISHER_ID:'ca-pub-1234567890123456',ADSENSE_GUIDE_SLOT:'1663397967',ASSETS:{fetch:async req=>new Response(await readFile(new URL('../dist'+new URL(req.url).pathname+'index.html',import.meta.url),'utf8'),{headers:{'Content-Type':'text/html'}})}};
+ const home=await(await worker.fetch(new Request('https://example.com/zh/'),env)).text();
+ assert.ok(home.indexOf('class="ad-placement"')>home.indexOf('id="guide-content"'));
+ assert.equal([...home.matchAll(/data-ad-slot="1663397967"/g)].length,1);
+ assert.ok(home.includes('aria-label="广告"'));
+ for(const path of ['/privacy/','/about/','/zh/privacy/','/ja/about/'])assert.ok(!(await(await worker.fetch(new Request('https://example.com'+path),env)).text()).includes('class="ad-placement"'));
+ const invalid=await(await worker.fetch(new Request('https://example.com/zh/'),{...env,ADSENSE_GUIDE_SLOT:'123"><script>'})).text();assert.ok(!invalid.includes('class="ad-placement"'));
+});

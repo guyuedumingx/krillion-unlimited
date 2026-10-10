@@ -1,0 +1,747 @@
+{
+  "origin": "https://unlimited-krillion.com",
+  "version": "ede16965-af71-4d5a-8286-e262aaa578de",
+  "pages_checked": 112,
+  "failures": [],
+  "endpoints": {
+    "/ads.txt": {
+      "status": 200,
+      "publisher_matches": true,
+      "type": "text/plain; charset=utf-8"
+    },
+    "/robots.txt": {
+      "status": 200
+    },
+    "/sitemap.xml": {
+      "status": 200,
+      "urls": 112
+    },
+    "/sitemap.txt": {
+      "status": 200,
+      "urls": 112
+    },
+    "/?fc=alwaysshow&fctype=gdpr": {
+      "status": 200,
+      "robots": "noindex, follow"
+    },
+    "/?seed=seo-check": {
+      "status": 200,
+      "robots": "noindex, follow"
+    },
+    "/zh": {
+      "status": 301,
+      "location": "https://unlimited-krillion.com/zh/"
+    },
+    "/definitely-not-a-real-route/": {
+      "status": 404
+    }
+  },
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "errors": [],
+      "description": "Play Krillion Unlimited free: seven questions per dive, 210 prompts, six themes, daily challenges and seven languages. Replay without a daily limit."
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "errors": [],
+      "description": "Find Krillion Unlimited rules, scoring, rare-answer tips, daily challenges and six theme guides. Choose a guide, learn the game and start a free dive."
+    },
+    {
+      "path": "/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "description": "Learn how to play Krillion Unlimited: enter one answer, retry mistakes, use the timer and review all seven results. Includes scoring and replay rules."
+    },
+    {
+      "path": "/scoring/",
+      "status": 200,
+      "errors": [],
+      "description": "Understand Krillion Unlimited scoring: the 10, 30, 60, 85 and 100-point tiers, depth conversion, 700-point maximum and editorial rarity model."
+    },
+    {
+      "path": "/tips/",
+      "status": 200,
+      "errors": [],
+      "description": "Find less obvious Krillion Unlimited answers with family trees, regions and related concepts. Practise without a timer and learn from accepted-answer reviews."
+    },
+    {
+      "path": "/daily/",
+      "status": 200,
+      "errors": [],
+      "description": "Learn how the Krillion Unlimited daily challenge works: seven fixed questions per UTC day, archive replay and the difference from unlimited practice."
+    },
+    {
+      "path": "/themes/",
+      "status": 200,
+      "errors": [],
+      "description": "Choose a Krillion Unlimited theme: geography, nature, science, food, arts or sports. Each has 35 prompts, sample questions and free seven-question dives."
+    },
+    {
+      "path": "/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "description": "Practise Krillion Unlimited with questions about countries, capitals and borders: 35 prompts, sample answers and learning references. Start a free seven-question themed dive."
+    },
+    {
+      "path": "/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "description": "Practise Krillion Unlimited with questions about animals, plants and biological families: 35 prompts, sample answers and learning references. Start a free seven-question themed dive."
+    },
+    {
+      "path": "/themes/science/",
+      "status": 200,
+      "errors": [],
+      "description": "Practise Krillion Unlimited with questions about elements, space and scientific units: 35 prompts, sample answers and learning references. Start a free seven-question themed dive."
+    },
+    {
+      "path": "/themes/food/",
+      "status": 200,
+      "errors": [],
+      "description": "Practise Krillion Unlimited with questions about ingredients, dishes and food families: 35 prompts, sample answers and learning references. Start a free seven-question themed dive."
+    },
+    {
+      "path": "/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "description": "Practise Krillion Unlimited with questions about music, literature and visual arts: 35 prompts, sample answers and learning references. Start a free seven-question themed dive."
+    },
+    {
+      "path": "/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "description": "Practise Krillion Unlimited with questions about sports, positions and competition events: 35 prompts, sample answers and learning references. Start a free seven-question themed dive."
+    },
+    {
+      "path": "/faq/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimited FAQ: free unlimited replay, score rules, supported languages, saved games and browser data. Get answers before your next dive."
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "errors": [],
+      "description": "About this independent Krillion Unlimited edition: original code, artwork and question bank, six themes, seven languages and personal browser records."
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimited privacy: what your browser stores, how to delete saved games, challenge-link data and Cloudflare technical requests."
+    },
+    {
+      "path": "/es/",
+      "status": 200,
+      "errors": [],
+      "description": "Juega Krillion Unlimited gratis: siete preguntas por partida, 210 preguntas, seis temas, retos diarios y siete idiomas. Repite sin límite diario."
+    },
+    {
+      "path": "/es/guides/",
+      "status": 200,
+      "errors": [],
+      "description": "Consulta reglas, puntuación, consejos, retos diarios y seis guías temáticas de Krillion Unlimited. Aprende a jugar y empieza una inmersión gratis."
+    },
+    {
+      "path": "/es/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "description": "Aprende a jugar a Krillion Unlimited: responde, reintenta, usa el reloj y revisa las siete preguntas. Incluye reglas de puntuación y nuevas partidas."
+    },
+    {
+      "path": "/es/scoring/",
+      "status": 200,
+      "errors": [],
+      "description": "Entiende los puntos de Krillion Unlimited: niveles de 10, 30, 60, 85 y 100, profundidad, máximo de 700 y rareza definida por el banco del juego."
+    },
+    {
+      "path": "/es/tips/",
+      "status": 200,
+      "errors": [],
+      "description": "Encuentra respuestas menos evidentes usando familias, regiones y conceptos relacionados. Practica Krillion Unlimited sin reloj y aprende al revisar las respuestas."
+    },
+    {
+      "path": "/es/daily/",
+      "status": 200,
+      "errors": [],
+      "description": "Descubre el reto diario de Krillion Unlimited: siete preguntas fijas por día UTC, partidas anteriores y diferencias con la práctica ilimitada."
+    },
+    {
+      "path": "/es/themes/",
+      "status": 200,
+      "errors": [],
+      "description": "Elige geografía, naturaleza, ciencia, comida, arte o deportes en Krillion Unlimited. Cada tema tiene 35 preguntas, ejemplos y partidas gratis de siete preguntas."
+    },
+    {
+      "path": "/es/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "description": "Practica países, capitales y fronteras en Krillion Unlimited: 35 preguntas, respuestas de ejemplo y referencias. Inicia una partida temática gratis de siete preguntas."
+    },
+    {
+      "path": "/es/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "description": "Practica animales, plantas y familias biológicas en Krillion Unlimited: 35 preguntas, respuestas de ejemplo y referencias. Inicia una partida temática gratis de siete preguntas."
+    },
+    {
+      "path": "/es/themes/science/",
+      "status": 200,
+      "errors": [],
+      "description": "Practica elementos, espacio y unidades científicas en Krillion Unlimited: 35 preguntas, respuestas de ejemplo y referencias. Inicia una partida temática gratis de siete preguntas."
+    },
+    {
+      "path": "/es/themes/food/",
+      "status": 200,
+      "errors": [],
+      "description": "Practica ingredientes, platos y familias de alimentos en Krillion Unlimited: 35 preguntas, respuestas de ejemplo y referencias. Inicia una partida temática gratis de siete preguntas."
+    },
+    {
+      "path": "/es/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "description": "Practica música, literatura y artes visuales en Krillion Unlimited: 35 preguntas, respuestas de ejemplo y referencias. Inicia una partida temática gratis de siete preguntas."
+    },
+    {
+      "path": "/es/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "description": "Practica deportes, posiciones y pruebas en Krillion Unlimited: 35 preguntas, respuestas de ejemplo y referencias. Inicia una partida temática gratis de siete preguntas."
+    },
+    {
+      "path": "/es/faq/",
+      "status": 200,
+      "errors": [],
+      "description": "Preguntas frecuentes de Krillion Unlimited: partidas gratis, puntos, idiomas, partidas guardadas y datos del navegador. Resuelve dudas antes de jugar."
+    },
+    {
+      "path": "/es/about/",
+      "status": 200,
+      "errors": [],
+      "description": "Conoce esta edición independiente de Krillion Unlimited: código, arte y preguntas propios, seis temas, siete idiomas y registros personales en el navegador."
+    },
+    {
+      "path": "/es/privacy/",
+      "status": 200,
+      "errors": [],
+      "description": "Privacidad de Krillion Unlimited: datos del navegador, cómo borrar partidas, información en enlaces de retos y solicitudes técnicas de Cloudflare."
+    },
+    {
+      "path": "/pt/",
+      "status": 200,
+      "errors": [],
+      "description": "Jogue Krillion Unlimited grátis: sete perguntas por partida, 210 perguntas, seis temas, desafios diários e sete idiomas. Jogue sem limite diário."
+    },
+    {
+      "path": "/pt/guides/",
+      "status": 200,
+      "errors": [],
+      "description": "Veja regras, pontuação, dicas, desafios diários e seis guias temáticos de Krillion Unlimited. Aprenda a jogar e comece um mergulho grátis."
+    },
+    {
+      "path": "/pt/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "description": "Aprenda a jogar Krillion Unlimited: responda, tente novamente, use o cronômetro e reveja as sete perguntas. Veja como pontuar e começar outra partida."
+    },
+    {
+      "path": "/pt/scoring/",
+      "status": 200,
+      "errors": [],
+      "description": "Entenda a pontuação de Krillion Unlimited: níveis de 10, 30, 60, 85 e 100, profundidade, máximo de 700 e raridade definida pelo banco do jogo."
+    },
+    {
+      "path": "/pt/tips/",
+      "status": 200,
+      "errors": [],
+      "description": "Encontre respostas menos óbvias usando famílias, regiões e conceitos relacionados. Pratique Krillion Unlimited sem tempo e aprenda ao rever as respostas."
+    },
+    {
+      "path": "/pt/daily/",
+      "status": 200,
+      "errors": [],
+      "description": "Conheça o desafio diário de Krillion Unlimited: sete perguntas fixas por dia UTC, partidas anteriores e diferenças para a prática ilimitada."
+    },
+    {
+      "path": "/pt/themes/",
+      "status": 200,
+      "errors": [],
+      "description": "Escolha geografia, natureza, ciência, comida, artes ou esportes em Krillion Unlimited. Cada tema tem 35 perguntas, exemplos e partidas grátis de sete perguntas."
+    },
+    {
+      "path": "/pt/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "description": "Pratique países, capitais e fronteiras em Krillion Unlimited: 35 perguntas, exemplos de respostas e referências. Comece uma partida temática grátis de sete perguntas."
+    },
+    {
+      "path": "/pt/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "description": "Pratique animais, plantas e famílias biológicas em Krillion Unlimited: 35 perguntas, exemplos de respostas e referências. Comece uma partida temática grátis de sete perguntas."
+    },
+    {
+      "path": "/pt/themes/science/",
+      "status": 200,
+      "errors": [],
+      "description": "Pratique elementos, espaço e unidades científicas em Krillion Unlimited: 35 perguntas, exemplos de respostas e referências. Comece uma partida temática grátis de sete perguntas."
+    },
+    {
+      "path": "/pt/themes/food/",
+      "status": 200,
+      "errors": [],
+      "description": "Pratique ingredientes, pratos e famílias de alimentos em Krillion Unlimited: 35 perguntas, exemplos de respostas e referências. Comece uma partida temática grátis de sete perguntas."
+    },
+    {
+      "path": "/pt/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "description": "Pratique música, literatura e artes visuais em Krillion Unlimited: 35 perguntas, exemplos de respostas e referências. Comece uma partida temática grátis de sete perguntas."
+    },
+    {
+      "path": "/pt/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "description": "Pratique esportes, posições e provas em Krillion Unlimited: 35 perguntas, exemplos de respostas e referências. Comece uma partida temática grátis de sete perguntas."
+    },
+    {
+      "path": "/pt/faq/",
+      "status": 200,
+      "errors": [],
+      "description": "Perguntas frequentes de Krillion Unlimited: partidas grátis, pontos, idiomas, jogos salvos e dados do navegador. Tire dúvidas antes de jogar."
+    },
+    {
+      "path": "/pt/about/",
+      "status": 200,
+      "errors": [],
+      "description": "Conheça esta edição independente de Krillion Unlimited: código, arte e perguntas próprios, seis temas, sete idiomas e registros pessoais no navegador."
+    },
+    {
+      "path": "/pt/privacy/",
+      "status": 200,
+      "errors": [],
+      "description": "Privacidade de Krillion Unlimited: dados do navegador, como apagar partidas, informações nos links de desafios e requisições técnicas da Cloudflare."
+    },
+    {
+      "path": "/fr/",
+      "status": 200,
+      "errors": [],
+      "description": "Jouez à Krillion Unlimited gratuitement : sept questions par partie, 210 questions, six thèmes, défis quotidiens et sept langues. Rejouez sans limite."
+    },
+    {
+      "path": "/fr/guides/",
+      "status": 200,
+      "errors": [],
+      "description": "Retrouvez règles, scores, conseils, défis quotidiens et six guides thématiques de Krillion Unlimited. Apprenez à jouer et lancez une plongée gratuite."
+    },
+    {
+      "path": "/fr/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "description": "Apprenez à jouer à Krillion Unlimited : saisissez une réponse, réessayez, utilisez le chrono et consultez vos sept résultats, les scores et les nouvelles parties."
+    },
+    {
+      "path": "/fr/scoring/",
+      "status": 200,
+      "errors": [],
+      "description": "Comprenez le score de Krillion Unlimited : paliers de 10, 30, 60, 85 et 100 points, conversion en profondeur, maximum de 700 et rareté éditoriale."
+    },
+    {
+      "path": "/fr/tips/",
+      "status": 200,
+      "errors": [],
+      "description": "Trouvez des réponses moins évidentes avec les familles, régions et idées associées. Entraînez-vous sans chrono et apprenez grâce aux réponses acceptées."
+    },
+    {
+      "path": "/fr/daily/",
+      "status": 200,
+      "errors": [],
+      "description": "Découvrez le défi quotidien de Krillion Unlimited : sept questions fixes par jour UTC, archives rejouables et différences avec les parties illimitées."
+    },
+    {
+      "path": "/fr/themes/",
+      "status": 200,
+      "errors": [],
+      "description": "Choisissez géographie, nature, sciences, cuisine, arts ou sports. Chaque thème de Krillion Unlimited propose 35 questions, des exemples et des parties gratuites."
+    },
+    {
+      "path": "/fr/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "description": "Révisez le thème « pays, capitales et frontières » dans Krillion Unlimited : 35 questions, exemples de réponses et références. Lancez une plongée thématique gratuite de sept questions."
+    },
+    {
+      "path": "/fr/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "description": "Révisez le thème « animaux, plantes et familles biologiques » dans Krillion Unlimited : 35 questions, exemples de réponses et références. Lancez une plongée thématique gratuite de sept questions."
+    },
+    {
+      "path": "/fr/themes/science/",
+      "status": 200,
+      "errors": [],
+      "description": "Révisez le thème « éléments, espace et unités scientifiques » dans Krillion Unlimited : 35 questions, exemples de réponses et références. Lancez une plongée thématique gratuite de sept questions."
+    },
+    {
+      "path": "/fr/themes/food/",
+      "status": 200,
+      "errors": [],
+      "description": "Révisez le thème « ingrédients, plats et familles alimentaires » dans Krillion Unlimited : 35 questions, exemples de réponses et références. Lancez une plongée thématique gratuite de sept questions."
+    },
+    {
+      "path": "/fr/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "description": "Révisez le thème « musique, littérature et arts visuels » dans Krillion Unlimited : 35 questions, exemples de réponses et références. Lancez une plongée thématique gratuite de sept questions."
+    },
+    {
+      "path": "/fr/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "description": "Révisez le thème « sports, postes et épreuves » dans Krillion Unlimited : 35 questions, exemples de réponses et références. Lancez une plongée thématique gratuite de sept questions."
+    },
+    {
+      "path": "/fr/faq/",
+      "status": 200,
+      "errors": [],
+      "description": "FAQ Krillion Unlimited : parties gratuites, scores, langues, sauvegardes et données du navigateur. Trouvez vos réponses avant votre prochaine plongée."
+    },
+    {
+      "path": "/fr/about/",
+      "status": 200,
+      "errors": [],
+      "description": "Découvrez cette édition indépendante de Krillion Unlimited : code, graphismes et questions propres, six thèmes, sept langues et records dans le navigateur."
+    },
+    {
+      "path": "/fr/privacy/",
+      "status": 200,
+      "errors": [],
+      "description": "Confidentialité de Krillion Unlimited : stockage local, suppression des parties, données des liens de défis et requêtes techniques Cloudflare."
+    },
+    {
+      "path": "/de/",
+      "status": 200,
+      "errors": [],
+      "description": "Spiele Krillion Unlimited kostenlos: sieben Fragen pro Runde, 210 Fragen, sechs Themen, tägliche Challenges und sieben Sprachen. Beliebig oft spielen."
+    },
+    {
+      "path": "/de/guides/",
+      "status": 200,
+      "errors": [],
+      "description": "Entdecke Regeln, Punkte, Tipps, tägliche Challenges und sechs Themenratgeber für Krillion Unlimited. Lerne das Spiel und starte einen kostenlosen Tauchgang."
+    },
+    {
+      "path": "/de/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "description": "So spielst du Krillion Unlimited: eine Antwort eingeben, Fehler erneut versuchen, den Timer nutzen und sieben Ergebnisse ansehen. Mit Punkte- und Wiederholungsregeln."
+    },
+    {
+      "path": "/de/scoring/",
+      "status": 200,
+      "errors": [],
+      "description": "Verstehe Krillion Unlimited: 10, 30, 60, 85 und 100 Punkte, Umrechnung in Tauchtiefe, maximal 700 Punkte und die redaktionellen Seltenheitsstufen."
+    },
+    {
+      "path": "/de/tips/",
+      "status": 200,
+      "errors": [],
+      "description": "Finde weniger offensichtliche Antworten über Familien, Regionen und verwandte Begriffe. Übe Krillion Unlimited ohne Timer und lerne aus den Antwortlisten."
+    },
+    {
+      "path": "/de/daily/",
+      "status": 200,
+      "errors": [],
+      "description": "So funktioniert die tägliche Krillion-Unlimited-Challenge: sieben feste Fragen pro UTC-Tag, Archiv zum Wiederholen und Unterschiede zur freien Übung."
+    },
+    {
+      "path": "/de/themes/",
+      "status": 200,
+      "errors": [],
+      "description": "Wähle Geografie, Natur, Wissenschaft, Essen, Kunst oder Sport. Jedes Krillion-Unlimited-Thema bietet 35 Fragen, Beispiele und kostenlose Runden mit sieben Fragen."
+    },
+    {
+      "path": "/de/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "description": "Übe Länder, Hauptstädte und Grenzen in Krillion Unlimited: 35 Fragen, Beispielantworten und Lernquellen. Starte eine kostenlose Themenrunde mit sieben Fragen."
+    },
+    {
+      "path": "/de/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "description": "Übe Tiere, Pflanzen und biologische Familien in Krillion Unlimited: 35 Fragen, Beispielantworten und Lernquellen. Starte eine kostenlose Themenrunde mit sieben Fragen."
+    },
+    {
+      "path": "/de/themes/science/",
+      "status": 200,
+      "errors": [],
+      "description": "Übe Elemente, Weltraum und wissenschaftliche Einheiten in Krillion Unlimited: 35 Fragen, Beispielantworten und Lernquellen. Starte eine kostenlose Themenrunde mit sieben Fragen."
+    },
+    {
+      "path": "/de/themes/food/",
+      "status": 200,
+      "errors": [],
+      "description": "Übe Zutaten, Gerichte und Lebensmittelgruppen in Krillion Unlimited: 35 Fragen, Beispielantworten und Lernquellen. Starte eine kostenlose Themenrunde mit sieben Fragen."
+    },
+    {
+      "path": "/de/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "description": "Übe Musik, Literatur und bildende Kunst in Krillion Unlimited: 35 Fragen, Beispielantworten und Lernquellen. Starte eine kostenlose Themenrunde mit sieben Fragen."
+    },
+    {
+      "path": "/de/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "description": "Übe Sportarten, Positionen und Wettkämpfe in Krillion Unlimited: 35 Fragen, Beispielantworten und Lernquellen. Starte eine kostenlose Themenrunde mit sieben Fragen."
+    },
+    {
+      "path": "/de/faq/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimited FAQ: kostenlose Wiederholungen, Punkte, Sprachen, gespeicherte Runden und Browserdaten. Antworten für deinen nächsten Tauchgang."
+    },
+    {
+      "path": "/de/about/",
+      "status": 200,
+      "errors": [],
+      "description": "Über diese unabhängige Krillion-Unlimited-Ausgabe: eigener Code, eigene Grafik und Fragen, sechs Themen, sieben Sprachen und persönliche Browserrekorde."
+    },
+    {
+      "path": "/de/privacy/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimited Datenschutz: lokale Browserdaten, Spielstände löschen, Daten in Challenge-Links und technische Anfragen bei Cloudflare."
+    },
+    {
+      "path": "/zh/",
+      "status": 200,
+      "errors": [],
+      "description": "免费玩 Krillion Unlimited：每局七题，210 道题、六大主题、每日挑战和七种语言。寻找冷门答案，潜入更深的海域，无每日游玩次数限制。"
+    },
+    {
+      "path": "/zh/guides/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimited 攻略目录：游戏规则、计分与深度、冷门答案技巧、每日挑战及六大主题指南。了解玩法后直接开始免费潜航。"
+    },
+    {
+      "path": "/zh/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimited 游戏规则：输入一个答案、重试错误、使用计时器、跳过题目并回顾七题结果。了解计分、恢复游戏与无限重玩方式。"
+    },
+    {
+      "path": "/zh/scoring/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimited 计分说明：10、30、60、85、100 分如何换算下潜深度，七题最高 700 分，以及题库编辑设置的冷门答案档位。"
+    },
+    {
+      "path": "/zh/tips/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimited 冷门答案技巧：从分类家族、地区和关联概念寻找思路。关闭计时器练习，并通过每局答案回顾积累知识。"
+    },
+    {
+      "path": "/zh/daily/",
+      "status": 200,
+      "errors": [],
+      "description": "了解 Krillion Unlimited 每日挑战：按 UTC 日期固定七道题、回放历史挑战，以及每日题组和无限练习模式的区别。"
+    },
+    {
+      "path": "/zh/themes/",
+      "status": 200,
+      "errors": [],
+      "description": "选择 Krillion Unlimited 地理、自然、科学、美食、艺术或体育主题。每类 35 道题，附问题与答案示例，直接开始七题免费潜航。"
+    },
+    {
+      "path": "/zh/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "description": "练习 Krillion Unlimited 的国家、首都与陆地边界题目：35 道题，附真实问题、答案示例和学习来源，直接开始免费的七题主题潜航。"
+    },
+    {
+      "path": "/zh/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "description": "练习 Krillion Unlimited 的动物、植物与生物分类题目：35 道题，附真实问题、答案示例和学习来源，直接开始免费的七题主题潜航。"
+    },
+    {
+      "path": "/zh/themes/science/",
+      "status": 200,
+      "errors": [],
+      "description": "练习 Krillion Unlimited 的化学元素、太空与科学单位题目：35 道题，附真实问题、答案示例和学习来源，直接开始免费的七题主题潜航。"
+    },
+    {
+      "path": "/zh/themes/food/",
+      "status": 200,
+      "errors": [],
+      "description": "练习 Krillion Unlimited 的食材、菜品与食物分类题目：35 道题，附真实问题、答案示例和学习来源，直接开始免费的七题主题潜航。"
+    },
+    {
+      "path": "/zh/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "description": "练习 Krillion Unlimited 的音乐、文学与视觉艺术题目：35 道题，附真实问题、答案示例和学习来源，直接开始免费的七题主题潜航。"
+    },
+    {
+      "path": "/zh/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "description": "练习 Krillion Unlimited 的运动项目、位置与竞赛题目：35 道题，附真实问题、答案示例和学习来源，直接开始免费的七题主题潜航。"
+    },
+    {
+      "path": "/zh/faq/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimited 常见问题：是否免费无限游玩、分数如何计算、支持哪些语言、怎样保存进度，以及浏览器数据如何处理。"
+    },
+    {
+      "path": "/zh/about/",
+      "status": 200,
+      "errors": [],
+      "description": "关于独立实现的 Krillion Unlimited：自己的代码、画面与题库，六大主题、七种语言和浏览器个人记录。了解本站与原作的关系。"
+    },
+    {
+      "path": "/zh/privacy/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimited 隐私说明：浏览器本地保存哪些数据，如何删除游戏记录，挑战链接包含什么，以及 Cloudflare 的技术请求处理。"
+    },
+    {
+      "path": "/ja/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedを無料プレイ。1回7問、全210問、6テーマ、デイリー挑戦、7言語対応。珍しい答えで深く潜ろう。1日の回数制限なし。"
+    },
+    {
+      "path": "/ja/guides/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedのガイド一覧。ルール、得点と深度、珍しい答えのコツ、デイリー挑戦、6テーマの解説から選んで無料で遊ぼう。"
+    },
+    {
+      "path": "/ja/how-to-play/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedの遊び方。答えを一つ入力し、誤答を再入力、タイマーを使用、7問の結果を確認。得点、再開、繰り返しプレイも解説。"
+    },
+    {
+      "path": "/ja/scoring/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedの得点を解説。10・30・60・85・100点と深度の換算、7問で最大700点、問題集に設定された珍しさの段階を確認。"
+    },
+    {
+      "path": "/ja/tips/",
+      "status": 200,
+      "errors": [],
+      "description": "分類の仲間、地域、関連する概念からKrillion Unlimitedの意外な答えを探すコツ。時間制限なしで練習し、答えの一覧から学ぼう。"
+    },
+    {
+      "path": "/ja/daily/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedのデイリー挑戦を解説。UTC日付ごとの固定7問、過去の問題の再プレイ、無制限練習との違いを確認。"
+    },
+    {
+      "path": "/ja/themes/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedの地理・自然・科学・食べ物・芸術・スポーツから選ぼう。各テーマ35問、問題と答えの例、無料の7問ダイブを用意。"
+    },
+    {
+      "path": "/ja/themes/geography/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedで国・首都・国境を練習。35問、問題と答えの例、学習用の参照先を掲載。無料の7問テーマダイブを始めよう。"
+    },
+    {
+      "path": "/ja/themes/nature/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedで動物・植物・生物の分類を練習。35問、問題と答えの例、学習用の参照先を掲載。無料の7問テーマダイブを始めよう。"
+    },
+    {
+      "path": "/ja/themes/science/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedで元素・宇宙・科学の単位を練習。35問、問題と答えの例、学習用の参照先を掲載。無料の7問テーマダイブを始めよう。"
+    },
+    {
+      "path": "/ja/themes/food/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedで食材・料理・食べ物の分類を練習。35問、問題と答えの例、学習用の参照先を掲載。無料の7問テーマダイブを始めよう。"
+    },
+    {
+      "path": "/ja/themes/arts/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedで音楽・文学・美術を練習。35問、問題と答えの例、学習用の参照先を掲載。無料の7問テーマダイブを始めよう。"
+    },
+    {
+      "path": "/ja/themes/sports/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedで競技・ポジション・大会種目を練習。35問、問題と答えの例、学習用の参照先を掲載。無料の7問テーマダイブを始めよう。"
+    },
+    {
+      "path": "/ja/faq/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedのよくある質問。無料で何度でも遊べるか、得点の仕組み、対応言語、途中の保存、ブラウザ内データを解説。"
+    },
+    {
+      "path": "/ja/about/",
+      "status": 200,
+      "errors": [],
+      "description": "独立実装のKrillion Unlimitedについて。独自のコード、画像、問題集、6テーマ、7言語、ブラウザの個人記録と原作との関係を紹介。"
+    },
+    {
+      "path": "/ja/privacy/",
+      "status": 200,
+      "errors": [],
+      "description": "Krillion Unlimitedのプライバシー。ブラウザに保存するデータ、ゲーム記録の削除、挑戦URLの内容、Cloudflareの技術的な処理を説明。"
+    }
+  ],
+  "adsense": "Actual AdSense script and display slot1663397967 deployed. Seven-language Google European consent message Published. Site review and actual ad delivery pending.",
+  "google_search_console": {
+    "property": "sc-domain:unlimited-krillion.com",
+    "ownership": "Verified by DNS TXT",
+    "xml_live_test": "Page fetch Successful; Crawl allowed Yes; tested source is valid XML",
+    "xml_report": "Could not fetch; 0 discovered pages",
+    "text_submission": "Sitemap submitted successfully",
+    "text_report": "Could not fetch; 0 discovered pages; Sitemap could not be read",
+    "indexing": "Homepage previously requested successfully; actual new-domain indexing not confirmed",
+    "root_cause": "Unconfirmed"
+  },
+  "google_adsense": {
+    "publisher": "ca-pub-1699434602283644",
+    "display_unit": "1663397967",
+    "script": "Live; Google managed implementation observed in browser",
+    "placement": "Guide content; lazy visible request observed; gameplay area height0",
+    "site_review": "Getting ready / Review requested",
+    "ads_txt_ui": "Not found",
+    "ads_txt_live": "200; correct publisher",
+    "payment_profile": "Required; owner must enter real information",
+    "consent_message": "Published; this domain only; en/es/pt-PT/fr/de/zh-CN/ja; reject all eligible regions; optimization off",
+    "cmp_live_preview": "Not yet displayed; revocation UI unverified",
+    "ad_creative": "Not displayed / not confirmed"
+  },
+  "tests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "browser": {
+    "console_errors_observed": [],
+    "guide_ad_requested": true,
+    "ad_area_height_during_game": 0,
+    "existing_game_resumed": true
+  }
+}

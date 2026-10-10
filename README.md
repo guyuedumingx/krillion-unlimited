@@ -50,11 +50,13 @@ npm run deploy
 
 ## 广告与统计
 
-真实发布者 `ca-pub-1699434602283644` 的 AdSense 所有权 meta 标签及 ads.txt 已部署。2026-10-10 AdSense 已验证 unlimited-krillion.com，审核申请已提交，后台显示 Getting ready / Review requested。审核通过前没有启用广告脚本。
+正式站已启用真实 AdSense 脚本，发布者为 `ca-pub-1699434602283644`。2026-10-10 创建了响应式展示广告位 `1663397967`，放在主页攻略区及指南正文后，进入可视区域才请求广告。答题时主页攻略区隐藏；隐私和 About 页面不放展示广告。没有开启自动插屏或锚定广告。
 
-账户首页仍显示 Payments / Tell us about you 为 Required，需要所有者本人填写真实收款资料。网站审核通过和广告实际展示仍未完成，不能把所有权验证当作获批。
+Worker 为可信脚本生成每次响应不同的 nonce，并使用 Google 支持的 strict CSP；带 nonce 的 HTML 不共享缓存。`ADSENSE_ENABLED=false` 可关闭广告脚本及广告位；`ADSENSE_GUIDE_SLOT` 必须为有效广告位 ID。所有权 meta 和 ads.txt 同时保留。
 
-网站批准后，再配置适用地区的 Google CMP、准确的隐私说明、实际广告位及支持 AdSense 的 CSP。广告应放在回合之间或说明区，避免紧靠提交按钮或遮挡游戏。GA4尚未安装，如需要统计应提供 Measurement ID 并配置同意管理。
+Google European regulations 同意提示已 Published，只绑定 unlimited-krillion.com，支持英、西、葡、法、德、中、日七种语言，提供同意、不同意、管理选项，关闭消息优化。页脚提供适用地区的撤回同意入口，Google CMP 确认适用且 API 就绪后显示。七语隐私政策已更新 Google 广告与 Cookie 披露。当前线上强制预览未出现 CMP，因此实际弹窗及撤回交互还未完成验收；Google 发布提示称传播可能需要一小时。
+
+AdSense 网站审核仍为 Getting ready / Review requested；后台 ads.txt 状态仍为 Not found，而正式 URL 实测200且内容匹配发布者。不能把代码部署、广告请求或同意提示发布当作审核获批或实际广告展示。账户首页 Payments / Tell us about you 仍为 Required，需要所有者本人填写真实收款资料。GA4 尚未安装。
 
 ## 维护
 
@@ -64,7 +66,7 @@ src/bank.js与src/extra-bank.js组成题库。每题含原创提示、有限答�
 
 ## 验收
 
-16个自动化测试涵盖确定性题组、答案/别名、拼写修正、分享配置、存档与阶段恢复、得分边界、题库覆盖、Worker canonical/CSP/404/sitemap，以及 AdSense 发布者 ID 校验。新增验收覆盖210题的六种额外语言提示/已登记本地答案、跨语言歧义、跨语言存档、112个页面的语言对应关系和内链、sitemap及结构化数据CSP。
+19个自动化测试涵盖确定性题组、答案/别名、拼写修正、分享配置、存档与阶段恢复、得分边界、题库覆盖、Worker canonical/CSP/404/sitemap，以及 AdSense 发布者 ID 校验。新增验收覆盖210题的六种额外语言提示/已登记本地答案、跨语言歧义、跨语言存档、112个页面的语言对应关系和内链、sitemap及结构化数据CSP。
 
 浏览器人工验收涵盖：错误答案重试、七题700分结算、统计仅计一次、刷新恢复、分享复制、每日题组、超时0分、390px布局无横向溢出。手机宽度模拟不替代真实手机键盘和触摸测试。
 
@@ -76,7 +78,7 @@ Wrangler固定版本4.148.0；对其本地开发依赖sharp固定补丁版本0.3
 
 Google 新域名首页实时测试通过：URL is available to Google / Page can be indexed。首页已成功请求索引，加入优先抓取队列；这不等同于已收录。
 
-112-URL 站点地图位于 https://unlimited-krillion.com/sitemap.xml ，已提交至新域名资源。首次及重交后报告仍显示 Could not fetch / 0 discovered pages；精确 sitemap URL 的 Google 实时测试为 Crawl allowed Yes / Page fetch Successful。等待 Google 后续抓取及报告处理，不声称 sitemap 报告已 Success。完整证据见 LIVE-AUDIT-V6.json 与 V6 发布记录。旧 workers.dev 首页的历史已收录状态不能代表新域名已收录。
+112-URL 站点地图位于 https://unlimited-krillion.com/sitemap.xml ，已提交至新域名资源。首次及重交后报告仍显示 Could not fetch / 0 discovered pages；精确 sitemap URL 的 Google 实时测试为 Crawl allowed Yes / Page fetch Successful。等待 Google 后续抓取及报告处理，不声称 sitemap 报告已 Success。2026-10-10 再检查时 Google 的 View tested page 源码为有效 XML。另部署并成功提交文本版 https://unlimited-krillion.com/sitemap.txt ，同样包含112个标准URL；报告仍为 Could not fetch / 0 discovered pages。两种公开端点均200，本站robots未阻止抓取。报告尚未成功读取，后续需检查 Google 的抓取和处理结果；没有证据证明失败根因。完整证据见 LIVE-AUDIT-V7.json 与 V7 发布记录。旧 workers.dev 首页的历史已收录状态不能代表新域名已收录。
 
 AdSense 域名所有权验证及审核请求均成功；实际站点审核和广告展示尚未完成。其他网站 yohoyes.site 未作修改。
 
