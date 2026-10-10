@@ -42,7 +42,9 @@ Local alias coverage does not mean every possible answer has been translated. De
 
 ## Website and guides
 
-The website includes **112 distinct content URLs**: 16 page types in each of seven languages. These cover the game, guide hub, rules, scoring, tips, daily challenges, theme hub, six category guides, FAQ, about, and privacy.
+The website includes **133 distinct content URLs**: 19 page types in each of seven languages. These cover the game, guide hub, rules, scoring, tips, daily challenges, theme hub, six category guides, three keyword explanation guides, FAQ, about, and privacy.
+
+New explanations: [Krillion Unlimited](https://unlimited-krillion.com/krillion-unlimited/), [Geography Krillion](https://unlimited-krillion.com/geography-krillion/), and [Krillion Sports](https://unlimited-krillion.com/krillion-sports/). Each has seven language versions. Word-order URL variants redirect to their canonical guide.
 
 Useful starting points:
 
@@ -139,7 +141,7 @@ Each prompt has an ID, category, prompt text, registered answers and aliases, a 
 
 When changing questions or scoring, increment `BANK_VERSION` in `src/bank.js` (currently `3`). Shared challenges and saved rounds are versioned so an old link cannot silently change its questions or scores. Add translated prompts and check local alias ambiguity alongside new questions. Verify facts and source links before expanding the bank.
 
-The build validates question IDs, answer aliases, category coverage, and translated prompts. The existing **20 automated tests** cover deterministic decks, answer grading, correction, saves, sharing, localization, canonical routing, sitemaps, structured data, CSP, AdSense, and GA4 injection.
+The build validates question IDs, answer aliases, category coverage, and translated prompts. The existing **22 automated tests** cover deterministic decks, answer grading, correction, saves, sharing, localization, canonical routing, sitemaps, structured data, CSP, AdSense, and GA4 injection.
 
 ```sh
 npm run build
@@ -153,3 +155,6 @@ The V8 audit checked all 112 production content pages. Automated tests and simul
 Report reproducible issues or suggest questions through [GitHub Issues](https://github.com/guyuedumingx/krillion-unlimited/issues). Include the page language, browser, question, and steps to reproduce. Please omit personal information from reports.
 
 Read the [release notes](RELEASE.md) for implementation history, or **[visit Krillion Unlimited](https://unlimited-krillion.com/)** to play the current version.
+
+
+Keyword-guide architecture and link/discovery plan: [SEO launch notes](SEO-LAUNCH-V10.md).

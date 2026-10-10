@@ -156,3 +156,22 @@ References: https://developers.google.com/tag-platform/security/guides/consent ;
 - Production version: e032484b-1f35-48e8-9807-3c07ff25ffcc. Build and20/20 automated tests passed. All112 live HTML pages passed new publisher, single loader, correct unit/exclusions, responsive format, absence of the old account, and preserved GA4 checks. ads.txt returns200 with only the new direct-seller publisher. Evidence: LIVE-AUDIT-V9.json.
 - Live browser saw unit2717459333 requested once after scrolling into view and an Advertisement iframe, with no console warnings/errors. A paid creative was not observed.
 - New-account site report: Getting ready / 正在准备; backend ads.txt report: Not found / 未找到, despite the public endpoint returning200 with the new publisher. No site approval, ad revenue, or complete visitor CMP flow is claimed.
+
+
+## V10 — keyword explanations and crawl discovery (2026-10-10)
+
+- Production version: 5a00ea05-c3e1-4a8a-8dd5-5a2d8d948b67, https://unlimited-krillion.com/ .
+- Five supplied phrases map to three substantial explanation pages: `/krillion-unlimited/`, `/geography-krillion/`, and `/krillion-sports/`. Seven native languages create21 new pages,133 canonical URLs total. Two word-order aliases redirect301 in each locale.
+- Pages explain this independent game's modes, finite bank, scores, answer boundaries and practice routines. Geography/Sports show actual registered examples and learning sources. They do not claim official affiliation, official daily answers, measured player rarity, or measured keyword volume/KD.
+- Homepage, hubs, relevant theme libraries, rules, daily and tips connect to the explanations; explanations connect back to gameplay and one another. The generated-link graph reaches all133 pages from the homepage. Theme CTAs select practice/category/timer through query parameters.
+- Native titles/descriptions, self canonical, reciprocal hreflang + x-default, Article/BreadcrumbList, visible update date, and dated XML entries. New guide sitemap has21 canonical URLs; full XML/text maps have133. Robots lists all three maps. English guide titles are at most60 characters.
+
+Acceptance:
+- Build and22/22 tests passed, including orphan detection, metadata/schema, aliases and focused sitemap checks. Normal-TLS live HTTP/1.1 retries confirmed133/133 HTML pages,14/14 aliases, all maps and robots; final21 guide pages rechecked after the title deployment. Initial HTTP/2 transport failures remain documented as failed probes rather than counted as success. Evidence: LIVE-AUDIT-V10.json.
+- Browser reviewed the real Geography explanation, latest title, samples, links and CTA. Its untimed link reached the Geography-themed game landing page. A saved unfinished dive caused a replacement confirmation; no new round was confirmed. Temporary test tab closed. No new mobile-device or timer-execution acceptance is claimed.
+- Google Search Console accepted individual indexing requests for all three English guides and explicitly added each to a priority crawl queue. Their index reports were previously unknown/not indexed; actual indexing remains unconfirmed.
+- Submitted updated `/sitemap.txt` successfully; report remains Success with112 discovered URLs from the previous version, not confirmed133. Submitted `/sitemap-guides.xml` successfully, but its report says Couldn't fetch/0. Existing main XML report also says Couldn't fetch/0. Both XML endpoints return200 and pass XML/canonical checks publicly. Google's fetch/processing outcome remains unresolved; do not conflate public HTTP success with Google sitemap acceptance.
+- Existing GA4 G-MMX9M6NGMS and new-account AdSense ca-pub-1089347748089061 are present once per audited page. A managed AdSense script emitted a third-party promise error in the guide preview; paid creative delivery and account approval are not confirmed by V10.
+- Proof images (local, ignored): seo-v10-geography-guide.png, gsc-v10-sitemaps.png, gsc-v10-geography-index-request.png, gsc-v10-unlimited-index-request.png, gsc-v10-sports-index-request.png.
+
+Backlink/distribution plan: SEO-LAUNCH-V10.md. Prioritize an itch.io game project page, the existing public GitHub project, actual gameplay posts on X, and relevant geography/education/sports editorial mentions; consider Product Hunt after feedback. No external posts or outreach were sent in this request. Crawling/indexing/ranking speed is not guaranteed.

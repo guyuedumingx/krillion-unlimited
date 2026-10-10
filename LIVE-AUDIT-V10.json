@@ -1,0 +1,2429 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/guides/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/how-to-play/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/scoring/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/tips/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/daily/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/geography/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/nature/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/science/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/food/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/arts/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/faq/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/about/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/privacy/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/guides/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/how-to-play/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/scoring/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/tips/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/daily/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/geography/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/nature/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/science/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/food/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/arts/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/faq/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/about/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/privacy/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/guides/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/how-to-play/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/scoring/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/tips/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/daily/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/geography/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/nature/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/science/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/food/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/arts/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/faq/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/about/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/privacy/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/guides/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/how-to-play/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/scoring/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/tips/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/daily/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/geography/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/nature/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/science/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/food/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/arts/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/faq/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/about/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/privacy/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/guides/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/how-to-play/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/scoring/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/tips/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/daily/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/geography/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/nature/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/science/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/food/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/arts/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/faq/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/about/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/privacy/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/guides/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/how-to-play/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/scoring/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/tips/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/daily/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/geography/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/nature/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/science/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/food/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/arts/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/faq/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/about/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/privacy/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/guides/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/how-to-play/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/scoring/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/tips/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/daily/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/geography/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/nature/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/science/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/food/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/arts/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/faq/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/about/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/privacy/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true
+      },
+      "passed": true
+    }
+  ],
+  "status": "completed_with_external_indexing_pending",
+  "endpoint_checks": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "url_count": 133,
+      "passed": true,
+      "canonical_only": true
+    },
+    {
+      "path": "/sitemap-guides.xml",
+      "status": 200,
+      "url_count": 21,
+      "passed": true,
+      "canonical_only": true
+    },
+    {
+      "path": "/sitemap.txt",
+      "status": 200,
+      "url_count": 133,
+      "passed": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/unlimited-krillion/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/krillion-unlimited/"
+    },
+    {
+      "path": "/krillion-geography-game/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/geography-krillion/"
+    },
+    {
+      "path": "/es/unlimited-krillion/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/es/krillion-unlimited/"
+    },
+    {
+      "path": "/es/krillion-geography-game/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/es/geography-krillion/"
+    },
+    {
+      "path": "/pt/unlimited-krillion/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/pt/krillion-unlimited/"
+    },
+    {
+      "path": "/pt/krillion-geography-game/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/pt/geography-krillion/"
+    },
+    {
+      "path": "/fr/unlimited-krillion/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/fr/krillion-unlimited/"
+    },
+    {
+      "path": "/fr/krillion-geography-game/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/fr/geography-krillion/"
+    },
+    {
+      "path": "/de/unlimited-krillion/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/de/krillion-unlimited/"
+    },
+    {
+      "path": "/de/krillion-geography-game/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/de/geography-krillion/"
+    },
+    {
+      "path": "/zh/unlimited-krillion/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/zh/krillion-unlimited/"
+    },
+    {
+      "path": "/zh/krillion-geography-game/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/zh/geography-krillion/"
+    },
+    {
+      "path": "/ja/unlimited-krillion/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/ja/krillion-unlimited/"
+    },
+    {
+      "path": "/ja/krillion-geography-game/",
+      "status": 301,
+      "passed": true,
+      "location": "https://unlimited-krillion.com/ja/geography-krillion/"
+    }
+  ],
+  "latest_guide_checks": [
+    {
+      "path": "/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/krillion-unlimited/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/geography-krillion/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/krillion-sports/",
+      "checks": {
+        "status": true,
+        "canonical": true,
+        "hreflang_count": true,
+        "indexable": true,
+        "metadata": true,
+        "ga": true,
+        "ads": true,
+        "script_csp": true,
+        "article": true,
+        "cross_links": true
+      },
+      "passed": true
+    }
+  ],
+  "checked_at": "2026-10-10T07:59:49.498115+00:00",
+  "deployment_version": "5a00ea05-c3e1-4a8a-8dd5-5a2d8d948b67",
+  "tests": {
+    "passed": 22,
+    "failed": 0
+  },
+  "http_summary": {
+    "canonical_pages_passed": 133,
+    "canonical_pages_total": 133,
+    "latest_guide_checks_passed": 21,
+    "aliases_passed": 14,
+    "endpoint_checks_passed": 18,
+    "transport": "curl HTTP/1.1, normal TLS validation",
+    "retry_note": "Initial concurrent HTTP/2 run confirmed 22 pages and had 111 transport failures. Only failed pages were retried using HTTP/1.1 and passed; all 21 guide pages were checked again after the final title deployment."
+  },
+  "gsc": {
+    "property": "sc-domain:unlimited-krillion.com",
+    "requests": [
+      {
+        "url": "https://unlimited-krillion.com/geography-krillion/",
+        "index_report_before_request": "URL is unknown to Google; not indexed",
+        "request_result": "Indexing requested; URL was added to a priority crawl queue",
+        "proof": "gsc-v10-geography-index-request.png"
+      },
+      {
+        "url": "https://unlimited-krillion.com/krillion-unlimited/",
+        "index_report_before_request": "URL is unknown to Google; not indexed",
+        "request_result": "Indexing requested; URL was added to a priority crawl queue",
+        "proof": "gsc-v10-unlimited-index-request.png"
+      },
+      {
+        "url": "https://unlimited-krillion.com/krillion-sports/",
+        "index_report_before_request": "URL is unknown to Google; not indexed",
+        "request_result": "Indexing requested; URL was added to a priority crawl queue",
+        "proof": "gsc-v10-sports-index-request.png"
+      }
+    ],
+    "sitemaps": [
+      {
+        "url": "https://unlimited-krillion.com/sitemap.txt",
+        "submission_result": "Sitemap submitted successfully",
+        "report_status": "Success",
+        "reported_discovered_urls": 112,
+        "live_url_count": 133,
+        "updated_discovery_confirmed": false
+      },
+      {
+        "url": "https://unlimited-krillion.com/sitemap-guides.xml",
+        "submission_result": "Sitemap submitted successfully",
+        "report_status": "Couldn't fetch",
+        "reported_discovered_urls": 0,
+        "live_url_count": 21
+      },
+      {
+        "url": "https://unlimited-krillion.com/sitemap.xml",
+        "report_status": "Couldn't fetch",
+        "reported_discovered_urls": 0,
+        "live_url_count": 133,
+        "resubmitted_this_release": false
+      }
+    ],
+    "indexing_completion_confirmed": false,
+    "sitemap_report_proof": "gsc-v10-sitemaps.png"
+  },
+  "browser": {
+    "geography_guide_render": "Reviewed live English guide, sample tables, related links and CTAs at normal 1280px viewport; latest concise title confirmed after reload",
+    "geography_untimed_cta": "Reached ?mode=practice&category=Geography&timer=off and rendered Geography themed-dive label. Starting a fresh round prompted replacement of an existing saved dive; no replacement was confirmed, and the temporary test tab was closed. Timer execution was not independently tested in this release.",
+    "mobile_viewport_verified_this_release": false,
+    "third_party_console_error": "AdSense managed show_ads_impl script emitted Uncaught (in promise) undefined. No new application-code error observed in the guide preview; ad creative delivery is not confirmed.",
+    "proof": "seo-v10-geography-guide.png"
+  }
+}

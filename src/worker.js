@@ -1,4 +1,4 @@
-import {siteLocales,siteSlugs,sitePath} from './site-routes.js';
+import {siteLocales,siteSlugs,sitePath,siteGuideSlugs,siteAliases,siteContentUpdated} from './site-routes.js';
 const paths=new Set(siteLocales.flatMap(l=>siteSlugs.map(s=>sitePath(l.code,s))));
 const esc=s=>s.replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
 const policy="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'";
@@ -11,13 +11,16 @@ let canonicalPath=url.pathname;
 if(canonicalPath.startsWith('/en/'))canonicalPath=canonicalPath.slice(3);
 if(canonicalPath==='/en')canonicalPath='/';
 if(canonicalPath.endsWith('/index.html'))canonicalPath=canonicalPath.slice(0,-10);
+const aliasLocale=siteLocales.find(l=>l.code===canonicalPath.split('/')[1])?.code||'en';
+const aliasSlug=canonicalPath.replace(/^\/(es|pt|fr|de|zh|ja)\//,'/').replace(/^\/+|\/+$/g,'');
+if(siteAliases[aliasSlug])canonicalPath=sitePath(aliasLocale,siteAliases[aliasSlug]);
 if(!canonicalPath.endsWith('/')&&paths.has(canonicalPath+'/'))canonicalPath+='/';
 const migratedHost=['krillion-practice.guyuedumingx.workers.dev','www.unlimited-krillion.com'].includes(url.hostname)&&url.origin!==origin;
 const insecureApex=url.host===new URL(origin).host&&url.protocol==='http:';
 if(migratedHost||insecureApex||(canonicalPath!==url.pathname&&paths.has(canonicalPath)))return new Response(null,{status:301,headers:{...headers,Location:origin+(paths.has(canonicalPath)?canonicalPath:url.pathname)+url.search}});
-if(url.pathname==='/robots.txt')return respond(`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\nSitemap: ${origin}/sitemap.txt\n`);
+if(url.pathname==='/robots.txt')return respond(`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\nSitemap: ${origin}/sitemap.txt\nSitemap: ${origin}/sitemap-guides.xml\n`);
 if(url.pathname==='/sitemap.txt')return respond(siteSlugs.flatMap(slug=>siteLocales.map(l=>origin+sitePath(l.code,slug))).join('\n')+'\n');
-if(url.pathname==='/sitemap.xml'){const xml=`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${siteSlugs.flatMap(slug=>siteLocales.map(l=>`<url><loc>${esc(origin+sitePath(l.code,slug))}</loc>${siteLocales.map(v=>`<xhtml:link rel="alternate" hreflang="${v.tag}" href="${esc(origin+sitePath(v.code,slug))}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${esc(origin+sitePath('en',slug))}"/></url>`)).join('')}</urlset>`;return respond(xml,200,'application/xml; charset=utf-8');}
+if(['/sitemap.xml','/sitemap-guides.xml'].includes(url.pathname)){const sitemapSlugs=url.pathname==='/sitemap-guides.xml'?siteGuideSlugs:siteSlugs;const xml=`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${sitemapSlugs.flatMap(slug=>siteLocales.map(l=>`<url><loc>${esc(origin+sitePath(l.code,slug))}</loc><lastmod>${siteContentUpdated}</lastmod>${siteLocales.map(v=>`<xhtml:link rel="alternate" hreflang="${v.tag}" href="${esc(origin+sitePath(v.code,slug))}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${esc(origin+sitePath('en',slug))}"/></url>`)).join('')}</urlset>`;return respond(xml,200,'application/xml; charset=utf-8');}
 const publisher=env.ADSENSE_PUBLISHER_ID,hasPublisher=/^ca-pub-[0-9]{16}$/.test(publisher||'');
 if(url.pathname==='/ads.txt'&&hasPublisher)return respond(`google.com, ${publisher.slice(3)}, DIRECT, f08c47fec0942fa0\n`);
 const asset=await env.ASSETS.fetch(request.method==='HEAD'?new Request(request,{method:'GET'}):request);const h=new Headers(asset.headers);for(const [k,v] of Object.entries(headers))h.set(k,v);

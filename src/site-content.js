@@ -1,7 +1,8 @@
+import {guideSlugs,guidePage,guideLinks} from './search-guides.js';
 import {metaDescription} from './seo-metadata.js';
 import {tr,localPath,locales,answerLabel,localizeQuestion} from './i18n.js';
 import {questions,categories} from './bank.js';
-export const slugs=['','guides','how-to-play','scoring','tips','daily','themes',...categories.map(c=>'themes/'+c.toLowerCase()),'faq','about','privacy'];
+export const slugs=['','guides','how-to-play','scoring','tips','daily','themes',...categories.map(c=>'themes/'+c.toLowerCase()),...guideSlugs,'faq','about','privacy'];
 const rows=`
 Free rare-answer trivia, endless replay|Trivia gratis de respuestas raras, sin límite|Trivia grátis de respostas raras, sem limites|Quiz gratuit de réponses rares, parties illimitées|Kostenloses Quiz mit seltenen Antworten und endlosen Runden|免费冷门知识问答，无限开局|珍しい答えを探す無料クイズ、何度でも遊べる
 Play Krillion Unlimited free. Seven questions per dive, 210 prompts, six themes, daily challenges and seven languages.|Juega Krillion Unlimited gratis. Siete preguntas por partida, 210 preguntas, seis temas, retos diarios y siete idiomas.|Jogue Krillion Unlimited grátis. Sete perguntas por partida, 210 perguntas, seis temas, desafios diários e sete idiomas.|Jouez gratuitement à Krillion Unlimited. Sept questions par partie, 210 questions, six thèmes, défis quotidiens et sept langues.|Spiele Krillion Unlimited kostenlos: sieben Fragen pro Runde, 210 Fragen, sechs Themen, tägliche Challenges und sieben Sprachen.|免费玩 Krillion Unlimited：每局七题，210 道题、六大主题、每日挑战，支持七种语言。|Krillion Unlimitedを無料プレイ。1回7問、全210問、6テーマ、毎日の挑戦、7言語対応。
@@ -62,6 +63,7 @@ export const titles={guides:'Game guides','how-to-play':keys[7],scoring:keys[12]
 export function pageData(lang,slug){const p=key=>`<p>${esc(ct(key,lang))}</p>`,h=key=>`<h2>${esc(ct(key,lang))}</h2>`,link=(s,label)=>`<a href="${localPath(lang,s)}">${esc(ct(label,lang))}</a>`;
 const play=(category)=>`<a class="primary" href="${localPath(lang)}${category?'?category='+category:''}">${esc(ct('Play free',lang))} ↘</a>`;
 const related=`<aside class="related-guides">${h('Related guides')}<nav>${['how-to-play','scoring','tips','daily','themes','faq'].filter(s=>s!==slug).map(s=>link(s,titles[s])).join('')}</nav></aside>`;
+const explanation=guidePage(lang,slug);if(explanation)return {...explanation,body:explanation.body+guideLinks(lang,slug)+related};
 let title=ct(titles[slug]||keys[0],lang),description=ct(keys[1],lang),body='',category;
 const para=(...indices)=>indices.map(i=>p(keys[i])).join('');
 if(!slug){body=h(keys[2])+para(3,4)+h(keys[5])+para(6)+`<nav class="content-cards">${categories.map(c=>link('themes/'+c.toLowerCase(),c)).join('')}</nav>`+related;}
@@ -75,5 +77,6 @@ else if(slug.startsWith('themes/')){category=categories.find(c=>slug==='themes/'
 else if(slug==='faq'){body=[37,15,39,41].map(i=>h(keys[i])+p(keys[i+1])).join('')+play();}
 else if(slug==='about'){body=para(44,4,6)+play();title=ct(keys[43],lang);}
 else if(slug==='privacy'){body=`<p>2026-10-10</p>`+para(42,46,47)+`<p><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare Privacy</a> · <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy</a> · <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Ads &amp; cookies</a></p>`;title=ct(keys[45],lang);}
+if(['','guides','themes','themes/geography','themes/sports','how-to-play','daily','tips'].includes(slug))body+=guideLinks(lang);
 if(slug)body+=related;
 return {title,description:metaDescription(lang,slug),body,category};}
