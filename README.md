@@ -116,11 +116,11 @@ Use the supplied Worker deployment for the complete routing and SEO behavior. Up
 
 ## Ads, analytics, and privacy
 
-The official website integrates Google AdSense and GA4. Display ad units sit in the homepage guide section and after guide content, load when near the viewport, and are hidden with the guide section during gameplay. About and privacy pages have no display ad units.
+The official website integrates Google AdSense and GA4. The AdSense publisher was switched to `ca-pub-1089347748089061`; the sitewide loader, ownership meta, and ads.txt use the new account. A responsive display unit, `2717459333` (Krillion Unlimited — Guide content), was created in the new account and installed in guide-content placements. The previous account's display slot is no longer used. Prior review and consent-message status below applies to the previous account; the new-account site currently shows Getting ready, and CMP setup has not been verified. When configured, display ad units sit in the homepage guide section and after guide content, load when near the viewport, and are hidden with the guide section during gameplay. About and privacy pages have no explicit guide-content display units.
 
 GA4 loads once on each successful HTML content page; 404 pages do not receive the analytics tag. Analytics page and referrer URLs omit query strings. Game answers, local saves, and local scores are not sent as custom analytics events. Google Signals and analytics ad-personalization signals are disabled.
 
-The Google consent configuration starts with four consent types denied and uses Advanced Consent Mode. Google CMP settings enable advertising and analytics consent updates. Denied consent can still allow cookieless measurement requests. The website has localized privacy disclosures and a consent settings entry where the Google CMP makes it applicable and available.
+The Google consent configuration starts with four consent types denied and uses Advanced Consent Mode. The code retains support for Google CMP consent updates; new-account CMP settings have not yet been verified. Denied consent can still allow cookieless measurement requests. The website has localized privacy disclosures and a consent settings entry where the Google CMP makes it applicable and available.
 
 The Worker assigns a per-response nonce to trusted scripts and a Content Security Policy; tagged HTML uses `private, no-store` caching.
 

@@ -32,7 +32,7 @@ if(h.get('Content-Type')?.includes('text/html')){
  if(adsEnabled){
   const slot=env.ADSENSE_GUIDE_SLOT,locale=siteLocales.find(l=>l.code===url.pathname.split('/')[1])?.code||'en';
   const labels={en:'Advertisement',es:'Publicidad',pt:'Publicidade',fr:'Publicité',de:'Werbung',zh:'广告',ja:'広告'};
-  if(/^[0-9]{10}$/.test(slot||'')&&!/\/(privacy|about)\/$/.test(url.pathname))html=html.replace('<footer class="content-footer">',`<aside class="ad-placement" aria-label="${labels[locale]}"><small>${labels[locale]}</small><ins class="adsbygoogle" style="display:block" data-ad-client="${publisher}" data-ad-slot="${slot}" data-ad-format="horizontal" data-full-width-responsive="true"></ins></aside><footer class="content-footer">`);
+  if(/^[0-9]{10}$/.test(slot||'')&&!/\/(privacy|about)\/$/.test(url.pathname))html=html.replace('<footer class="content-footer">',`<aside class="ad-placement" aria-label="${labels[locale]}"><small>${labels[locale]}</small><ins class="adsbygoogle" style="display:block" data-ad-client="${publisher}" data-ad-slot="${slot}" data-ad-format="auto" data-full-width-responsive="true"></ins></aside><footer class="content-footer">`);
   html=html.replace('</head>',`<script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${publisher}"></script><script type="module" src="/ad-consent.js"></script></head>`);
  }
  if(analyticsEnabled){

@@ -1,0 +1,1611 @@
+{
+  "checked_at": "2026-10-10T03:58:21.158686+00:00",
+  "origin": "https://unlimited-krillion.com",
+  "deployment_version": "e032484b-1f35-48e8-9807-3c07ff25ffcc",
+  "publisher": "ca-pub-1089347748089061",
+  "display_unit": {
+    "id": "2717459333",
+    "name": "Krillion Unlimited \u2014 Guide content",
+    "format": "auto",
+    "responsive": true,
+    "created_in_signed_in_google_account": true,
+    "google_code_proof": "adsense-v9-new-ad-unit.png"
+  },
+  "tests": {
+    "passed": 20,
+    "failed": 0
+  },
+  "pages": [
+    {
+      "path": "/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/guides/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/how-to-play/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/scoring/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/tips/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/daily/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/geography/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/nature/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/science/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/food/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/arts/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/sports/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/faq/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/about/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/privacy/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/guides/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/how-to-play/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/scoring/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/tips/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/daily/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/geography/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/nature/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/science/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/food/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/arts/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/themes/sports/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/faq/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/about/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/privacy/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/guides/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/how-to-play/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/scoring/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/tips/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/daily/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/geography/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/nature/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/science/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/food/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/arts/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/sports/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/faq/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/about/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/privacy/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/guides/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/how-to-play/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/scoring/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/tips/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/daily/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/geography/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/nature/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/science/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/food/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/arts/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/sports/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/faq/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/about/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/privacy/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/guides/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/how-to-play/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/scoring/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/tips/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/daily/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/geography/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/nature/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/science/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/food/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/arts/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/themes/sports/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/faq/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/about/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/privacy/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/guides/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/how-to-play/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/scoring/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/tips/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/daily/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/geography/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/nature/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/science/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/food/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/arts/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/sports/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/faq/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/about/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/privacy/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/guides/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/how-to-play/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/scoring/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/tips/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/daily/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/geography/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/nature/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/science/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/food/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/arts/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/sports/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/faq/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/about/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/privacy/",
+      "checks": {
+        "status_200": true,
+        "publisher_meta": true,
+        "single_new_ad_loader": true,
+        "old_account_absent": true,
+        "correct_slot_count": true,
+        "correct_slot_format": true,
+        "correct_slot_publisher": true,
+        "ga4_retained": true
+      },
+      "passed": true
+    }
+  ],
+  "ads_txt": {
+    "status": 200,
+    "content": "google.com, pub-1089347748089061, DIRECT, f08c47fec0942fa0\n",
+    "passed": true
+  },
+  "google_site_status": {
+    "approval": "Getting ready / \u6b63\u5728\u51c6\u5907",
+    "ads_txt_report": "Not found / \u672a\u627e\u5230",
+    "auto_ads": "already_enabled_not_changed",
+    "auto_optimization": "already_enabled_not_changed"
+  },
+  "new_account_cmp_settings": "not_verified",
+  "paid_ad_delivery": "not_verified",
+  "browser": {
+    "new_script_and_display_unit_verified": true,
+    "visible_unit_requested": true,
+    "ad_iframe_observed": true,
+    "paid_creative_observed": false,
+    "console_warnings_errors": []
+  },
+  "probe_notes": [
+    "Initial Python ads.txt request returned 403; direct curl returned 200 with correct publisher. Browser ads.txt navigation blocked by client; game-page DOM inspection succeeded. Final production HTTP audit used curl."
+  ]
+}

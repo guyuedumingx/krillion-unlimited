@@ -144,3 +144,15 @@ Final Google sitemap report after resubmission: Could not fetch /0 discovered pa
 - Consent setting proof: adsense-v8-analytics-consent.png. Screenshots remain local and ignored by Git. Prior GSC sitemap and AdSense review limitations remain separate from analytics installation; they were not retested or claimed resolved in V8.
 
 References: https://developers.google.com/tag-platform/security/guides/consent ; https://developers.google.com/funding-choices/fc-api-docs ; https://support.google.com/adsense/answer/16053245?hl=en .
+
+
+## V9 — New AdSense account and responsive display unit (2026-10-10)
+
+- Switched the publisher to user-supplied ca-pub-1089347748089061. Loader, ownership meta, and ads.txt derive from the single production configuration.
+- Inspected the signed-in new account: no existing display units. Created Krillion Unlimited — Guide content, responsive display unit2717459333, and read its Google-generated code. Configured the new unit with data-ad-format=auto and full-width-responsive=true. The old account's unit1663397967 is no longer used.
+- Explicit placements retain the existing localized guide-content position, visibility-based request and gameplay hiding behavior; privacy/about pages have no display unit. The new account's Auto ads and auto-optimization were already enabled when inspected; these settings were not changed.
+- GA4 G-MMX9M6NGMS, SEO routes, and default-denied Google consent configuration are retained. Old-account approval and published CMP settings do not establish new-account status. New-account CMP setup and paid ad delivery remain unverified.
+- Google unit creation proof: adsense-v9-new-ad-unit.png (local and excluded from Git).
+- Production version: e032484b-1f35-48e8-9807-3c07ff25ffcc. Build and20/20 automated tests passed. All112 live HTML pages passed new publisher, single loader, correct unit/exclusions, responsive format, absence of the old account, and preserved GA4 checks. ads.txt returns200 with only the new direct-seller publisher. Evidence: LIVE-AUDIT-V9.json.
+- Live browser saw unit2717459333 requested once after scrolling into view and an Advertisement iframe, with no console warnings/errors. A paid creative was not observed.
+- New-account site report: Getting ready / 正在准备; backend ads.txt report: Not found / 未找到, despite the public endpoint returning200 with the new publisher. No site approval, ad revenue, or complete visitor CMP flow is claimed.
