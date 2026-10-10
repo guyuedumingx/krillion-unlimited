@@ -56,7 +56,9 @@ Worker 为可信脚本生成每次响应不同的 nonce，并使用 Google 支�
 
 Google European regulations 同意提示已 Published，只绑定 unlimited-krillion.com，支持英、西、葡、法、德、中、日七种语言，提供同意、不同意、管理选项，关闭消息优化。页脚提供适用地区的撤回同意入口，Google CMP 确认适用且 API 就绪后显示。七语隐私政策已更新 Google 广告与 Cookie 披露。当前线上强制预览未出现 CMP，因此实际弹窗及撤回交互还未完成验收；Google 发布提示称传播可能需要一小时。
 
-AdSense 网站审核仍为 Getting ready / Review requested；后台 ads.txt 状态仍为 Not found，而正式 URL 实测200且内容匹配发布者。不能把代码部署、广告请求或同意提示发布当作审核获批或实际广告展示。账户首页 Payments / Tell us about you 仍为 Required，需要所有者本人填写真实收款资料。GA4 尚未安装。
+AdSense 网站审核仍为 Getting ready / Review requested；后台 ads.txt 状态仍为 Not found，而正式 URL 实测200且内容匹配发布者。不能把代码部署、广告请求或同意提示发布当作审核获批或实际广告展示。账户首页 Payments / Tell us about you 仍为 Required，需要所有者本人填写真实收款资料。GA4 已部署，Measurement ID 为 `G-MMX9M6NGMS`。全部112个标准内容页面加载一次标签和一次config，保留原有广告接入；404不发送统计。统计地址和来源地址移除查询参数，不上传游戏答案、存档或本地成绩。Google Signals 与统计标签的广告个性化信号关闭。
+
+采用 Advanced Consent Mode，默认四类同意状态为denied，等待Google CMP更新；AdSense European regulations 设置中已保存广告及analytics用途的Consent Mode开关。用户未允许统计Cookie时仍可能发送无Cookie衡量请求，不能把默认denied描述成完全无网络请求。已更新七语隐私披露。Google后台已确认正式站Google tag已安装；首次数据入库、实时用户数和完整访客同意交互尚未确认。
 
 ## 维护
 
@@ -66,7 +68,7 @@ src/bank.js与src/extra-bank.js组成题库。每题含原创提示、有限答�
 
 ## 验收
 
-19个自动化测试涵盖确定性题组、答案/别名、拼写修正、分享配置、存档与阶段恢复、得分边界、题库覆盖、Worker canonical/CSP/404/sitemap，以及 AdSense 发布者 ID 校验。新增验收覆盖210题的六种额外语言提示/已登记本地答案、跨语言歧义、跨语言存档、112个页面的语言对应关系和内链、sitemap及结构化数据CSP。
+20个自动化测试涵盖确定性题组、答案/别名、拼写修正、分享配置、存档与阶段恢复、得分边界、题库覆盖、Worker canonical/CSP/404/sitemap，以及 AdSense 发布者 ID 校验。新增验收覆盖210题的六种额外语言提示/已登记本地答案、跨语言歧义、跨语言存档、112个页面的语言对应关系和内链、sitemap及结构化数据CSP。
 
 浏览器人工验收涵盖：错误答案重试、七题700分结算、统计仅计一次、刷新恢复、分享复制、每日题组、超时0分、390px布局无横向溢出。手机宽度模拟不替代真实手机键盘和触摸测试。
 

@@ -46,3 +46,25 @@ test('display unit is placed in guide content, localized, and excluded from priv
  for(const path of ['/privacy/','/about/','/zh/privacy/','/ja/about/'])assert.ok(!(await(await worker.fetch(new Request('https://example.com'+path),env)).text()).includes('class="ad-placement"'));
  const invalid=await(await worker.fetch(new Request('https://example.com/zh/'),{...env,ADSENSE_GUIDE_SLOT:'123"><script>'})).text();assert.ok(!invalid.includes('class="ad-placement"'));
 });
+
+test('GA4 is independent of ads, consent precedes collection, query values stay out and nonce CSP covers both tags',async()=>{
+ const source='<head><script type="application/ld+json">{"url":"__ORIGIN__/"}</script><script type="module" src="/app.js"></script></head>';
+ const env={GA4_MEASUREMENT_ID:'G-MMX9M6NGMS',ASSETS:{fetch:async req=>new Response(source,{status:new URL(req.url).pathname==='/missing'?404:200,headers:{'Content-Type':'text/html'}})}};
+ for(const path of ['/','/zh/','/ja/privacy/']){
+  const response=await worker.fetch(new Request('https://example.com'+path+'?seed=private-seed&answer=secret-answer'),env),body=await response.text();
+  assert.equal([...body.matchAll(/gtag\/js\?id=G-MMX9M6NGMS/g)].length,1);
+  assert.equal([...body.matchAll(/gtag\('config','G-MMX9M6NGMS'/g)].length,1);
+  assert.ok(body.indexOf("gtag('consent','default'")<body.indexOf("gtag('config'"));
+  assert.ok(body.includes("analytics_storage:'denied'"));
+  assert.ok(body.includes('page_location:"https://example.com'+path+'"'));
+  assert.ok(!body.includes('secret-answer')&&!body.includes('private-seed'));
+  assert.ok(body.includes('page_referrer:analyticsReferrer'));
+  const scripts=[...body.matchAll(/<script\b([^>]*)>/g)],nonce=scripts[0][1].match(/nonce="([^"]+)"/)[1];
+  assert.ok(scripts.every(m=>m[1].includes('nonce="'+nonce+'"')));assert.ok(response.headers.get('Content-Security-Policy').includes("'nonce-"+nonce+"'"));
+  assert.equal(response.headers.get('Cache-Control'),'private, no-store');
+ }
+ const both=await(await worker.fetch(new Request('https://example.com/'),{...env,ADSENSE_ENABLED:'true',ADSENSE_PUBLISHER_ID:'ca-pub-1234567890123456'})).text();
+ assert.ok(both.includes('gtag/js?id=G-MMX9M6NGMS')&&both.includes('adsbygoogle.js?client=ca-pub-1234567890123456'));
+ for(const id of [undefined,'bad-id','G-MMX9M6NGMS"><script>'])assert.ok(!(await(await worker.fetch(new Request('https://example.com/'),{...env,GA4_MEASUREMENT_ID:id})).text()).includes('gtag/js'));
+ assert.ok(!(await(await worker.fetch(new Request('https://example.com/missing'),env)).text()).includes('gtag/js'));
+});
