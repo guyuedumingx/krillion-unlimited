@@ -42,24 +42,19 @@ npm run deploy
 
 ## 正式域名
 
-1. 用户提供或购买自己控制的域名；本项目未购买域名。
-2. 在Cloudflare为该Worker设置Custom Domain，完成DNS及证书验证。
-3. 将SITE_ORIGIN改成正式域名，重新部署。
-4. 验证首页、/how-to-play/、/privacy/、/sitemap.xml和不存在路径的404。
-5. 验证Google Search Console / Bing Webmaster Tools站点归属并提交sitemap。提交不保证收录或排名。
+正式地址：https://unlimited-krillion.com/ 。Cloudflare 区域已 Active，根域通过 `unlimited-krillion.com/*` Worker 路由运行。现有两个已代理的根域 A 记录保留；所有路径由本项目 Worker 响应，不调用它们的源服务器。`www.unlimited-krillion.com` 使用 Worker Custom Domain。
 
-上线迁移后浏览器本地成绩不会跨域自动转移。
+旧 workers.dev 地址、www 和根域 HTTP 请求均301到正式 HTTPS 根域，保留路径与查询参数，并合并已知页面的斜杠标准化。112个页面的 canonical、hreflang、分享地址、结构化数据和 sitemap 全部使用新域名。不要把根域 A 记录切换为仅 DNS，否则 Worker 路由失效。
+
+线上迁移后浏览器本地成绩不会跨域自动转移。
 
 ## 广告与统计
 
-当前发布**未安装广告或分析脚本**。已使用真实发布者ID部署AdSense所有权meta标签及ads.txt；AdSense后台拒绝当前workers.dev游戏子域名，需要正式域名后继续验证并申请站点审核。实际广告展示还需要：
+真实发布者 `ca-pub-1699434602283644` 的 AdSense 所有权 meta 标签及 ads.txt 已部署。2026-10-10 AdSense 已验证 unlimited-krillion.com，审核申请已提交，后台显示 Getting ready / Review requested。审核通过前没有启用广告脚本。
 
-- 正式域名与站点所有者的真实联系/隐私资料。
-- AdSense实际发布者ID与广告位ID，待审核/批准状态核验；不能用占位ID。
-- 目标地区适用的同意管理方案；接入前更新隐私说明与Worker CSP。
-- 如需GA4，提供Measurement ID，并相应增加统计及同意管理。
+账户首页仍显示 Payments / Tell us about you 为 Required，需要所有者本人填写真实收款资料。网站审核通过和广告实际展示仍未完成，不能把所有权验证当作获批。
 
-不要为接广告删除题库审核或制造近似门页。广告应在回合之间或说明区，避免紧靠提交按钮或遮挡游戏。
+网站批准后，再配置适用地区的 Google CMP、准确的隐私说明、实际广告位及支持 AdSense 的 CSP。广告应放在回合之间或说明区，避免紧靠提交按钮或遮挡游戏。GA4尚未安装，如需要统计应提供 Measurement ID 并配置同意管理。
 
 ## 维护
 
@@ -69,23 +64,21 @@ src/bank.js与src/extra-bank.js组成题库。每题含原创提示、有限答�
 
 ## 验收
 
-15个自动化测试涵盖确定性题组、答案/别名、拼写修正、分享配置、存档与阶段恢复、得分边界、题库覆盖、Worker canonical/CSP/404/sitemap，以及 AdSense 发布者 ID 校验。新增验收覆盖210题的六种额外语言提示/已登记本地答案、跨语言歧义、跨语言存档、112个页面的语言对应关系和内链、sitemap及结构化数据CSP。
+16个自动化测试涵盖确定性题组、答案/别名、拼写修正、分享配置、存档与阶段恢复、得分边界、题库覆盖、Worker canonical/CSP/404/sitemap，以及 AdSense 发布者 ID 校验。新增验收覆盖210题的六种额外语言提示/已登记本地答案、跨语言歧义、跨语言存档、112个页面的语言对应关系和内链、sitemap及结构化数据CSP。
 
 浏览器人工验收涵盖：错误答案重试、七题700分结算、统计仅计一次、刷新恢复、分享复制、每日题组、超时0分、390px布局无横向溢出。手机宽度模拟不替代真实手机键盘和触摸测试。
 
 Wrangler固定版本4.148.0；对其本地开发依赖sharp固定补丁版本0.35.5。npm audit核验无已报告漏洞。生产Worker只包含本站路由和静态资源，不运行图片处理依赖。
 
-## Google integration (2026-10-09)
+## Google integration (2026-10-10)
 
-Search Console URL-prefix ownership is verified for the workers.dev address. Keep the google-site-verification meta tag. The previously submitted sitemap now shows Success with four pages from the previous release. The updated 112-URL sitemap was resubmitted successfully. Google's live test for /zh/ reports URL is available to Google / Page can be indexed. Its individual indexing request reached the daily quota limit; no successful new indexing request is claimed. A subsequent inspection confirms the English homepage is indexed (URL is on Google). Other new language/content pages and rankings are not confirmed.
+新域名的 Search Console Domain property `sc-domain:unlimited-krillion.com` 已通过 DNS TXT 所有权验证，覆盖全部协议和子域。保留 Cloudflare 中的 google-site-verification TXT 记录，不要删除。原 HTML 验证 meta 也保留。
 
-AdSense: the signed-in account now exists. Its real publisher ID is configured in Wrangler vars. All HTML pages expose the google-adsense-account meta tag, and /ads.txt serves the corresponding direct-seller record. This uses Google's supported ownership verification method without loading an advertising script.
+Google 新域名首页实时测试通过：URL is available to Google / Page can be indexed。首页已成功请求索引，加入优先抓取队列；这不等同于已收录。
 
-The AdSense Sites form rejects krillion-practice.guyuedumingx.workers.dev as an invalid top-level domain and suggests the parent domain. The game cannot therefore proceed through review on its current hostname. Bind an actual domain controlled by the user, then verify and request review for the accepted root domain. The existing yohoyes.site entry is Requires review and was not changed. The account's onboarding also requires the owner to enter payment information; do not collect or invent their address, tax or bank data. Site approval and ad delivery are not complete.
+112-URL 站点地图位于 https://unlimited-krillion.com/sitemap.xml ，已提交至新域名资源。首次及重交后报告仍显示 Could not fetch / 0 discovered pages；精确 sitemap URL 的 Google 实时测试为 Crawl allowed Yes / Page fetch Successful。等待 Google 后续抓取及报告处理，不声称 sitemap 报告已 Success。完整证据见 LIVE-AUDIT-V6.json 与 V6 发布记录。旧 workers.dev 首页的历史已收录状态不能代表新域名已收录。
 
-After the actual site is approved: choose deliberate ad placements, update the privacy notice, configure Google's CMP where applicable and use the current supported AdSense CSP configuration. Do not enable site-wide overlays or place ads beside game input buttons by default.
-
-When the domain is purchased: bind the Cloudflare custom domain, change SITE_ORIGIN, redirect the previous hostname to the new domain preserving paths, verify the new Search Console property and submit its sitemap, then add the final domain to AdSense for review.
+AdSense 域名所有权验证及审核请求均成功；实际站点审核和广告展示尚未完成。其他网站 yohoyes.site 未作修改。
 
 ## 多语言目录与内容维护
 

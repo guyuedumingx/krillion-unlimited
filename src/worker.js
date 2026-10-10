@@ -12,7 +12,9 @@ if(canonicalPath.startsWith('/en/'))canonicalPath=canonicalPath.slice(3);
 if(canonicalPath==='/en')canonicalPath='/';
 if(canonicalPath.endsWith('/index.html'))canonicalPath=canonicalPath.slice(0,-10);
 if(!canonicalPath.endsWith('/')&&paths.has(canonicalPath+'/'))canonicalPath+='/';
-if(canonicalPath!==url.pathname&&paths.has(canonicalPath))return new Response(null,{status:301,headers:{...headers,Location:origin+canonicalPath+url.search}});
+const migratedHost=['krillion-practice.guyuedumingx.workers.dev','www.unlimited-krillion.com'].includes(url.hostname)&&url.origin!==origin;
+const insecureApex=url.host===new URL(origin).host&&url.protocol==='http:';
+if(migratedHost||insecureApex||(canonicalPath!==url.pathname&&paths.has(canonicalPath)))return new Response(null,{status:301,headers:{...headers,Location:origin+(paths.has(canonicalPath)?canonicalPath:url.pathname)+url.search}});
 if(url.pathname==='/robots.txt')return respond(`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);
 if(url.pathname==='/sitemap.xml'){const xml=`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${siteSlugs.flatMap(slug=>siteLocales.map(l=>`<url><loc>${esc(origin+sitePath(l.code,slug))}</loc>${siteLocales.map(v=>`<xhtml:link rel="alternate" hreflang="${v.tag}" href="${esc(origin+sitePath(v.code,slug))}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${esc(origin+sitePath('en',slug))}"/></url>`)).join('')}</urlset>`;return respond(xml,200,'application/xml; charset=utf-8');}
 const publisher=env.ADSENSE_PUBLISHER_ID,hasPublisher=/^ca-pub-[0-9]{16}$/.test(publisher||'');

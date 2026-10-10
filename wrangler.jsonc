@@ -13,7 +13,17 @@
     "enabled": true
   },
   "vars": {
-    "SITE_ORIGIN": "https://krillion-practice.guyuedumingx.workers.dev",
+    "SITE_ORIGIN": "https://unlimited-krillion.com",
     "ADSENSE_PUBLISHER_ID": "ca-pub-1699434602283644"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "unlimited-krillion.com/*",
+      "zone_name": "unlimited-krillion.com"
+    },
+    {
+      "pattern": "www.unlimited-krillion.com",
+      "custom_domain": true
+    }
+  ]
 }

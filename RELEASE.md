@@ -98,3 +98,20 @@ Limits:
 - Bundled the actual social preview image under src/assets so the source archive can build independently of old release screenshots.
 
 Next external steps: the user selects/buys the game's actual domain; bind it to the Worker, update SITE_ORIGIN, preserve old URLs with redirects, verify the new Search Console property, submit the canonical-domain sitemap, then verify/request review for the accepted AdSense domain. Configure approved advertising placements, consent messaging and accurate privacy disclosures before enabling ad delivery.
+
+## V6 — Production apex domain and Google setup (2026-10-10)
+
+- Production version: 9cb106e5-1ebd-46f8-9ccd-36ae6d6446d0.
+- https://unlimited-krillion.com/ is the HTTPS canonical production origin; Cloudflare zone status Active. Apex traffic uses unlimited-krillion.com/* Worker route over the existing proxied DNS records. www uses a Worker Custom Domain.
+- Existing apex A records were retained because they conflict with a Worker Custom Domain; no registration or other website settings were changed. All apex paths are handled by the Worker, without fetching the A-record origins. DNS must remain proxied for the apex route to run.
+- Old workers.dev, www and HTTP apex addresses301 to the new HTTPS apex. Redirects preserve paths/query and combine known slash normalization in one hop.
+- All112 canonical HTML URLs passed live checks:200, seven-language hreflang plus x-default, correct canonical/origin, native metadata, real publisher meta and hashed schema CSP. ads.txt/robots/sitemap112/seed-noindex/slash-301/404 checks passed. All16 automated tests passed, including migration, HTTP upgrade and apex-no-loop assertions.
+- Live browser acceptance on the actual domain: Candela answer awarded100points and1000m depth; no browser console errors. Chinese homepage and language navigation use the new origin.
+- AdSense: unlimited-krillion.com added successfully; meta ownership verification succeeded; review requested successfully. Final site status Getting ready / Review requested. ads.txt is publicly served with the actual publisher ID. Site approval and actual ad delivery are pending; no advertising script is enabled.
+- AdSense onboarding still shows Payments / Tell us about you Required. Owner must enter their own real payment profile information. No address, tax or banking data was entered by the agent. Existing yohoyes.site was not changed.
+- Google Search Console Domain property sc-domain:unlimited-krillion.com verified using manual Cloudflare TXT; no broader DNS OAuth grant was needed. Keep the verification TXT record.
+- New apex homepage Google live test passed: URL is available to Google / Page can be indexed. Indexing request succeeded, priority crawl queue acknowledged; actual indexing/ranking is not confirmed.
+-112-URL canonical sitemap submitted successfully. Initial report showed Could not fetch; following Google's troubleshooting instructions, the exact sitemap URL passed live testing with Crawl allowed Yes / Page fetch Successful. It was then resubmitted. Final report state is recorded below.
+- Evidence: LIVE-AUDIT-V6.json; adsense-v6-review.png; adsense-v6-payments-required.png; gsc-v6-verified.png; gsc-v6-home-live.png; gsc-v6-index-requested.png; gsc-v6-sitemap-live.png; preview-v6-domain.png. Screenshots remain local and are excluded from Git.
+
+Final Google sitemap report after resubmission: Could not fetch /0 discovered pages. Exact sitemap live test: Page fetch Successful, Crawl allowed Yes. No blocked robots rule, HTTP error, malformed XML or manual TLS bypass was observed. This remains an external Google crawl/report issue, and successful parsing/discovery of112 URLs is not claimed. Google retries fetch failures for a few days; check the report later and investigate any concrete error if it persists.
