@@ -1,0 +1,919 @@
+{
+  "checked_at": "2026-10-12T11:01:30.758679+00:00",
+  "destination": "https://classroom-games.net/",
+  "label": "Classroom Games \u2197",
+  "placement": "Shared footer, all seven languages and404 fallback",
+  "generated_html_pages": 141,
+  "generated_html_with_exactly_one_link": 141,
+  "tests_passed": 23,
+  "live_pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/how-to-play/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/scoring/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/tips/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/daily/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/themes/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/themes/geography/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/themes/nature/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/themes/science/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/themes/food/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/themes/arts/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/themes/sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/krillion-unlimited/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/geography-krillion/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/krillion-sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/classroom-games/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/faq/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/guides/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/how-to-play/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/scoring/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/tips/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/daily/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/geography/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/nature/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/science/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/food/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/arts/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/krillion-unlimited/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/geography-krillion/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/krillion-sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/classroom-games/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/faq/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/about/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/privacy/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/guides/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/how-to-play/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/scoring/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/tips/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/daily/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/geography/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/nature/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/science/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/food/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/arts/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/krillion-unlimited/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/geography-krillion/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/krillion-sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/classroom-games/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/faq/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/about/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/privacy/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/guides/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/how-to-play/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/scoring/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/tips/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/daily/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/geography/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/nature/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/science/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/food/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/arts/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/krillion-unlimited/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/geography-krillion/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/krillion-sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/classroom-games/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/faq/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/about/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/privacy/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/guides/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/how-to-play/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/scoring/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/tips/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/daily/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/geography/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/nature/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/science/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/food/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/arts/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/krillion-unlimited/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/geography-krillion/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/krillion-sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/classroom-games/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/faq/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/about/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/privacy/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/guides/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/how-to-play/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/scoring/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/tips/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/daily/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/geography/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/nature/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/science/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/food/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/arts/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/krillion-unlimited/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/geography-krillion/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/krillion-sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/classroom-games/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/faq/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/about/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/privacy/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/guides/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/how-to-play/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/scoring/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/tips/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/daily/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/geography/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/nature/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/science/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/food/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/arts/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/krillion-unlimited/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/geography-krillion/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/krillion-sports/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/classroom-games/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/faq/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/about/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/privacy/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/external-link-audit-not-found/",
+      "status": 404,
+      "link_count": 1,
+      "passed": true
+    }
+  ],
+  "summary": {
+    "passed": 141,
+    "total": 141
+  },
+  "link_attributes": {
+    "target": "_blank",
+    "rel": [
+      "noopener",
+      "noreferrer"
+    ],
+    "nofollow": false
+  },
+  "destination_check": {
+    "http_status": 200,
+    "title": "Classroom Games: Free Educational Games to Play in Class (K\u201312)"
+  },
+  "research_reader_note": "Agent Reach Jina reader returned401 requiring authentication; direct HTTPS fetch confirmed the destination. No reader authentication was bypassed.",
+  "initial_failed_probes": [
+    {
+      "path": "/themes/food/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/external-link-audit-not-found/",
+      "status": 404,
+      "link_count": 0,
+      "passed": false
+    }
+  ],
+  "deployment_version": "0f187120-ad23-43d8-96cf-3df17482cd19",
+  "final_deployment_probes": [
+    {
+      "path": "/external-link-audit-not-found/",
+      "status": 404,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/classroom-games/",
+      "status": 200,
+      "link_count": 1,
+      "passed": true
+    }
+  ],
+  "custom_404_fix": "Enabled assets.not_found_handling=404-page so unknown paths serve the generated 404 page with a footer and HTTP 404.",
+  "browser_verification": {
+    "source": "https://unlimited-krillion.com/zh/classroom-games/",
+    "external_link_opened_in_new_tab": true,
+    "destination_url": "https://classroom-games.net/",
+    "destination_title": "Classroom Games: Free Educational Games to Play in Class (K\u201312)",
+    "mobile_viewport_width": 390,
+    "mobile_document_width": 390,
+    "screenshot": "seo-v12-external-link.png"
+  }
+}
