@@ -1,4 +1,4 @@
-import {guideSlugs,guidePage,guideLinks} from './search-guides.js';
+import {guideSlugs,guidePage,guideLinks,guideTitle} from './search-guides.js';
 import {metaDescription} from './seo-metadata.js';
 import {tr,localPath,locales,answerLabel,localizeQuestion} from './i18n.js';
 import {questions,categories} from './bank.js';
@@ -78,5 +78,6 @@ else if(slug==='faq'){body=[37,15,39,41].map(i=>h(keys[i])+p(keys[i+1])).join(''
 else if(slug==='about'){body=para(44,4,6)+play();title=ct(keys[43],lang);}
 else if(slug==='privacy'){body=`<p>2026-10-10</p>`+para(42,46,47)+`<p><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare Privacy</a> · <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy</a> · <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Ads &amp; cookies</a></p>`;title=ct(keys[45],lang);}
 if(['','guides','themes','themes/geography','themes/sports','how-to-play','daily','tips'].includes(slug))body+=guideLinks(lang);
+if(slug.startsWith('themes/')&&!['themes/geography','themes/sports'].includes(slug))body+=`<aside class="related-guides"><nav><a href="${localPath(lang,'classroom-games')}">${esc(guideTitle(lang,'classroom-games'))}</a></nav></aside>`;
 if(slug)body+=related;
 return {title,description:metaDescription(lang,slug),body,category};}

@@ -1,10 +1,12 @@
+import {classroomTitle,classroomDescription,classroomPage,classroomUpdated} from './classroom-guide.js';
 import {questions} from './bank.js';
 import {locales,localPath,localizeQuestion,answerLabel,tr} from './i18n.js';
 
-export const guideSlugs=['krillion-unlimited','geography-krillion','krillion-sports'];
+export const guideSlugs=['krillion-unlimited','geography-krillion','krillion-sports','classroom-games'];
 export const guideAliases={'unlimited-krillion':'krillion-unlimited','krillion-geography-game':'geography-krillion'};
 // Update only when the generated page content changes, never on every request.
 export const contentUpdated='2026-10-10';
+export const contentDates={'classroom-games':classroomUpdated};
 const rows=`
 Krillion Unlimited: unlimited practice explained|Krillion Unlimited: práctica ilimitada explicada|Krillion Unlimited: prática ilimitada explicada|Krillion Unlimited : comprendre la pratique illimitée|Krillion Unlimited: unbegrenzt üben erklärt|Krillion Unlimited 无限练习模式详解|Krillion Unlimited：無制限の練習を解説
 Geography Krillion: geography game and practice guide|Geography Krillion: juego y guía de geografía|Geography Krillion: jogo e guia de geografia|Geography Krillion : jeu et guide de géographie|Geography Krillion: Geografiespiel und Übungsratgeber|Geography Krillion 地理游戏与练习指南|Geography Krillion：地理ゲームと練習ガイド
@@ -61,11 +63,12 @@ const strings=Object.fromEntries(rows.trim().split('\n').map(row=>{const values=
 const keys=Object.keys(strings);
 const t=(key,lang)=>{if(!strings[key])throw Error('Unknown guide text: '+key);const i=locales.findIndex(l=>l.code===lang);if(i<0)throw Error('Unknown guide language: '+lang);return strings[key][i];};
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-export function guideTitle(lang,slug){return t(keys[guideSlugs.indexOf(slug)],lang);}
-export function guideDescription(lang,slug){return t(keys[3+guideSlugs.indexOf(slug)],lang);}
+export function guideTitle(lang,slug){return slug==='classroom-games'?classroomTitle(lang):t(keys[guideSlugs.indexOf(slug)],lang);}
+export function guideDescription(lang,slug){return slug==='classroom-games'?classroomDescription(lang):t(keys[3+guideSlugs.indexOf(slug)],lang);}
 export function guideLinks(lang,current=''){return `<aside class="related-guides"><h2>${esc(t('Explore another guide',lang))}</h2><nav>${guideSlugs.filter(s=>s!==current).map(s=>`<a href="${localPath(lang,s)}">${esc(guideTitle(lang,s))}</a>`).join('')}</nav></aside>`;}
 export function guidePage(lang,slug){
  if(!guideSlugs.includes(slug))return null;
+ if(slug==='classroom-games')return classroomPage(lang);
  const index=guideSlugs.indexOf(slug),category=index===1?'Geography':index===2?'Sports':null;
  const p=k=>`<p>${esc(t(k,lang))}</p>`,h=k=>`<h2>${esc(t(k,lang))}</h2>`,section=(a,b)=>h(keys[a])+p(keys[b]);
  const play=timed=>`<a class="primary" href="${localPath(lang)}?mode=practice${category?'&amp;category='+category:''}&amp;timer=${timed?'on':'off'}">${esc(t(timed?'Start a timed round':'Start untimed practice',lang))} ↘</a>`;

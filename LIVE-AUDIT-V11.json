@@ -1,0 +1,420 @@
+{
+  "checked_at": "2026-10-12T05:13:39.406054+00:00",
+  "deployment_version": "6253ec65-c1e5-409b-a14c-d8448f35af57",
+  "keyword": "classroom games",
+  "canonical": "https://unlimited-krillion.com/classroom-games/",
+  "pages": [
+    {
+      "path": "/classroom-games/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true,
+        "article": true,
+        "classroom_activities": true,
+        "practice": true,
+        "ga": true,
+        "ads": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/es/classroom-games/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true,
+        "article": true,
+        "classroom_activities": true,
+        "practice": true,
+        "ga": true,
+        "ads": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/pt/classroom-games/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true,
+        "article": true,
+        "classroom_activities": true,
+        "practice": true,
+        "ga": true,
+        "ads": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/fr/classroom-games/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true,
+        "article": true,
+        "classroom_activities": true,
+        "practice": true,
+        "ga": true,
+        "ads": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/de/classroom-games/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true,
+        "article": true,
+        "classroom_activities": true,
+        "practice": true,
+        "ga": true,
+        "ads": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/classroom-games/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true,
+        "article": true,
+        "classroom_activities": true,
+        "practice": true,
+        "ga": true,
+        "ads": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/ja/classroom-games/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true,
+        "article": true,
+        "classroom_activities": true,
+        "practice": true,
+        "ga": true,
+        "ads": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/guides/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/how-to-play/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/daily/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/tips/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/geography/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/science/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/nature/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/food/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/arts/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/themes/sports/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/krillion-unlimited/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/geography-krillion/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/krillion-sports/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/science/",
+      "checks": {
+        "http_200": true,
+        "canonical": true,
+        "indexable": true,
+        "hreflang": true,
+        "metadata": true,
+        "classroom_link": true
+      },
+      "passed": true
+    }
+  ],
+  "endpoints": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "url_count": 140,
+      "classroom_count": 7,
+      "passed": true
+    },
+    {
+      "path": "/sitemap-guides.xml",
+      "status": 200,
+      "url_count": 28,
+      "classroom_count": 7,
+      "passed": true
+    },
+    {
+      "path": "/sitemap.txt",
+      "status": 200,
+      "url_count": 140,
+      "passed": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "passed": true,
+      "sitemap_references": 3
+    },
+    {
+      "path": "/classroom-games",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "path": "/en/classroom-games/",
+      "status": 301,
+      "passed": true
+    }
+  ],
+  "automated_tests": {
+    "passed": 23,
+    "failed": 0,
+    "coverage": "All140 generated canonical pages, native metadata, complete internal-link graph, contextual classroom inbound links in every language, sitemap dates and routing"
+  },
+  "browser": {
+    "desktop": {
+      "width": 1280,
+      "scroll_width": 1280,
+      "proof": "seo-v11-classroom-desktop.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "cta_bottom": 735.57,
+      "proof": "seo-v11-classroom-mobile.png"
+    },
+    "practice_cta": {
+      "destination": "https://unlimited-krillion.com/?mode=practice&timer=off",
+      "started_fresh_round": true,
+      "visible_clock": "\u221e",
+      "visible_mode": "RELAXED DIVE \u00b7 NO TIMER"
+    },
+    "viewport_restored": true
+  },
+  "gsc": {
+    "attempt": "Opened domain property in available browser; redirected to public Search Console about page, no authenticated property visible",
+    "new_url_index_request_submitted": false,
+    "sitemap_submission_this_release": false,
+    "new_maps_live": true,
+    "google_indexing_confirmed": false
+  },
+  "research": {
+    "search_volume": null,
+    "ahrefs_kd": null,
+    "intent": "Teacher-led classroom activities and online trivia; inferred from current search results and actual product behavior",
+    "exa": "Free MCP rate limit; did not create credentials or claim results",
+    "google_documentation": [
+      "https://developers.google.com/search/docs/appearance/title-link",
+      "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+    ]
+  },
+  "probe_note": "Initial robots check mistakenly classified any .txt URL as a URL-list sitemap. Corrected the probe and verified robots separately; no application repair was needed.",
+  "completed_at": "2026-10-12T05:14:49.329068+00:00",
+  "summary": {
+    "pages_passed": 24,
+    "pages_total": 24,
+    "endpoints_passed": 6,
+    "endpoints_total": 6
+  }
+}

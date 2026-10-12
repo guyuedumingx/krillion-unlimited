@@ -39,7 +39,7 @@ Krillion Unlimited 是一个海洋像素风的浏览器答题小游戏。玩家�
 
 ## 网站内容与 SEO
 
-每种语言有 19 类页面，共 **133 个独立内容地址**，覆盖游戏首页、攻略目录、玩法、计分、技巧、每日挑战、主题目录、六个分类指南、FAQ、关于、隐私政策，以及三个关键词解释指南。
+每种语言有 20 类页面，共 **140 个独立内容地址**，覆盖游戏首页、攻略目录、玩法、计分、技巧、每日挑战、主题目录、六个分类指南、FAQ、关于、隐私政策，以及四个关键词与使用场景指南。
 
 新增：[无限模式解释](https://unlimited-krillion.com/zh/krillion-unlimited/)、[地理游戏解释](https://unlimited-krillion.com/zh/geography-krillion/)、[体育问答解释](https://unlimited-krillion.com/zh/krillion-sports/)，均支持七种语言。词序变体地址 301 到对应标准页。
 
@@ -121,7 +121,7 @@ Google 同意配置默认四类状态为 denied，采用 Advanced Consent Mode�
 
 题目包含 ID、类别、提示、答案与别名、解释及参考链接。分值按答案列表位置映射，调整顺序会改变评分。改动题库或评分时，递增 `src/bank.js` 的 `BANK_VERSION`（当前为 `3`），避免旧挑战链接和存档悄悄换题。
 
-新增题目要核验事实和来源、补齐语言提示、检查别名歧义。构建会验证重复 ID、答案别名、主题覆盖和翻译提示。现有 **22 项自动化测试**覆盖题组、判分、存档、分享、本地化、SEO、路由、CSP、广告和统计注入。
+新增题目要核验事实和来源、补齐语言提示、检查别名歧义。构建会验证重复 ID、答案别名、主题覆盖和翻译提示。现有 **23 项自动化测试**覆盖题组、判分、存档、分享、本地化、SEO、路由、CSP、广告和统计注入。
 
 ```sh
 npm run build
@@ -136,3 +136,5 @@ V8 检查已覆盖 112 个线上内容页。自动化检查和模拟手机布局
 
 
 关键词页面、内链和外链渠道计划：[SEO 上线说明](SEO-LAUNCH-V10.md)。
+
+教师课堂活动：[Classroom Games](https://unlimited-krillion.com/classroom-games/) 与[中文指南](https://unlimited-krillion.com/zh/classroom-games/)，提供投影热身、小组答案挑战和课末复习步骤，支持全部七种语言。
