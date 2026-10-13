@@ -1,3 +1,4 @@
+import {nativeHome,intentLinks} from './search-intent.js';
 import {guideSlugs,guidePage,guideLinks,guideTitle} from './search-guides.js';
 import {metaDescription} from './seo-metadata.js';
 import {tr,localPath,locales,answerLabel,localizeQuestion} from './i18n.js';
@@ -63,7 +64,7 @@ export const titles={guides:'Game guides','how-to-play':keys[7],scoring:keys[12]
 export function pageData(lang,slug){const p=key=>`<p>${esc(ct(key,lang))}</p>`,h=key=>`<h2>${esc(ct(key,lang))}</h2>`,link=(s,label)=>`<a href="${localPath(lang,s)}">${esc(ct(label,lang))}</a>`;
 const play=(category)=>`<a class="primary" href="${localPath(lang)}${category?'?category='+category:''}">${esc(ct('Play free',lang))} ↘</a>`;
 const related=`<aside class="related-guides">${h('Related guides')}<nav>${['how-to-play','scoring','tips','daily','themes','faq'].filter(s=>s!==slug).map(s=>link(s,titles[s])).join('')}</nav></aside>`;
-const explanation=guidePage(lang,slug);if(explanation)return {...explanation,body:explanation.body+guideLinks(lang,slug)+related};
+const explanation=guidePage(lang,slug);if(explanation)return {...explanation,body:explanation.body+intentLinks(lang,slug)+guideLinks(lang,slug)+related};
 let title=ct(titles[slug]||keys[0],lang),description=ct(keys[1],lang),body='',category;
 const para=(...indices)=>indices.map(i=>p(keys[i])).join('');
 if(!slug){body=h(keys[2])+para(3,4)+h(keys[5])+para(6)+`<nav class="content-cards">${categories.map(c=>link('themes/'+c.toLowerCase(),c)).join('')}</nav>`+related;}
@@ -79,5 +80,7 @@ else if(slug==='about'){body=para(44,4,6)+play();title=ct(keys[43],lang);}
 else if(slug==='privacy'){body=`<p>2026-10-10</p>`+para(42,46,47)+`<p><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare Privacy</a> · <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy</a> · <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Ads &amp; cookies</a></p>`;title=ct(keys[45],lang);}
 if(['','guides','themes','themes/geography','themes/sports','how-to-play','daily','tips'].includes(slug))body+=guideLinks(lang);
 if(slug.startsWith('themes/')&&!['themes/geography','themes/sports'].includes(slug))body+=`<aside class="related-guides"><nav><a href="${localPath(lang,'classroom-games')}">${esc(guideTitle(lang,'classroom-games'))}</a></nav></aside>`;
+if(['','guides','themes','themes/geography','themes/sports','how-to-play','daily','tips'].includes(slug))body+=intentLinks(lang);
 if(slug)body+=related;
-return {title,description:metaDescription(lang,slug),body,category};}
+const native=!slug?nativeHome(lang):{};
+return {title,description:native.description||metaDescription(lang,slug),body:(native.intro||'')+body,category,...native};}

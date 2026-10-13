@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {locales,localPath} from '../src/i18n.js';
-import {slugs} from '../src/site-content.js';
+import {slugs,pageData} from '../src/site-content.js';
 import {guideSlugs,guideAliases,contentUpdated,contentDates} from '../src/search-guides.js';
 import worker from '../src/worker.js';
 
@@ -18,7 +18,7 @@ test('new explanatory guides have localized articles, usable theme links and no 
   const article=schemas['@graph'].find(s=>s['@type']==='Article');
   if(locale.code==='en')assert.ok(html.match(/<title>(.*?)<\/title>/)[1].length<=60,'English guide title is concise and starts with its topic');
   assert.equal(article.inLanguage,locale.tag);assert.equal(article.dateModified,contentDates[slug]||contentUpdated);assert.equal(article.mainEntityOfPage['@id'],'__ORIGIN__'+path);
-  assert.ok(html.includes('<h1>'+article.headline+'</h1>'));
+  const data=pageData(locale.code,slug);assert.ok(html.includes(data.playable?'<h1>'+data.gameTitle+'</h1>':'<h1>'+article.headline+'</h1>'));if(data.playable){assert.ok(schemas['@graph'].some(s=>s['@type']==='WebApplication'));assert.ok(schemas['@graph'].some(s=>s['@type']==='BreadcrumbList'));}
   for(const other of guideSlugs.filter(s=>s!==slug))assert.ok(html.includes('href="'+localPath(locale.code,other)+'"'));
   assert.ok(html.includes('href="'+localPath(locale.code)+'?mode=practice'),'primary link leads to actual game');
   if(['geography-krillion','krillion-sports'].includes(slug))assert.equal([...html.matchAll(/<h3>/g)].length,3,'three visible real prompt examples');
@@ -40,8 +40,8 @@ test('word-order aliases consolidate in one hop and priority sitemap lists only 
  assert.equal(combined.status,301);assert.equal(combined.headers.get('Location'),env.SITE_ORIGIN+'/zh/krillion-unlimited/');
  const res=await worker.fetch(new Request(env.SITE_ORIGIN+'/sitemap-guides.xml'),env),xml=await res.text();
  assert.equal(res.headers.get('Content-Type'),'application/xml; charset=utf-8');
- assert.equal([...xml.matchAll(/<loc>/g)].length,28);
- assert.equal([...xml.matchAll(/<lastmod>2026-10-10<\/lastmod>/g)].length,21);
+ assert.equal([...xml.matchAll(/<loc>/g)].length,35);
+ assert.equal([...xml.matchAll(/<lastmod>2026-10-13<\/lastmod>/g)].length,28);
  assert.equal([...xml.matchAll(/<lastmod>2026-10-12<\/lastmod>/g)].length,7);
  for(const locale of locales)for(const slug of guideSlugs)assert.ok(xml.includes('<loc>'+env.SITE_ORIGIN+localPath(locale.code,slug)+'</loc>'));
  assert.ok(!xml.includes('/unlimited-krillion/'));assert.ok(!xml.includes('/krillion-geography-game/'));

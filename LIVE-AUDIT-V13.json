@@ -1,0 +1,1310 @@
+{
+  "checked_at": "2026-10-13T03:13:27.134703+00:00",
+  "site": "https://unlimited-krillion.com",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Krillion Unlimited — Free rare-answer trivia, endless replay",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "title": "Game guides | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/how-to-play/",
+      "status": 200,
+      "title": "How to play Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/scoring/",
+      "status": 200,
+      "title": "How points and depth work | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/tips/",
+      "status": 200,
+      "title": "Rare-answer tips | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/daily/",
+      "status": 200,
+      "title": "Daily challenge | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/themes/",
+      "status": 200,
+      "title": "Themed dives | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/themes/geography/",
+      "status": 200,
+      "title": "Geography — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/themes/nature/",
+      "status": 200,
+      "title": "Nature — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/themes/science/",
+      "status": 200,
+      "title": "Science — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/themes/food/",
+      "status": 200,
+      "title": "Food — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/themes/arts/",
+      "status": 200,
+      "title": "Arts — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/themes/sports/",
+      "status": 200,
+      "title": "Sports — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/krillion-unlimited/",
+      "status": 200,
+      "title": "Krillion Unlimited: unlimited practice explained",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/geography-krillion/",
+      "status": 200,
+      "title": "Krillion Geography Unlimited: Play Free Geography Trivia",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/krillion-sports/",
+      "status": 200,
+      "title": "Krillion Sports: Play Unlimited Sports Trivia",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/classroom-games/",
+      "status": 200,
+      "title": "Classroom Games: Free Trivia Activities for Teachers",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/krillion-unblocked/",
+      "status": 200,
+      "title": "Krillion Unblocked: Free Browser Trivia",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/faq/",
+      "status": 200,
+      "title": "FAQ | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "title": "About this Unlimited edition | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "title": "Privacy and local data | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/",
+      "status": 200,
+      "title": "Krillion en español — Juega gratis y sin límite",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/guides/",
+      "status": 200,
+      "title": "Guías del juego | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/how-to-play/",
+      "status": 200,
+      "title": "Cómo jugar a Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/scoring/",
+      "status": 200,
+      "title": "Cómo funcionan puntos y profundidad | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/tips/",
+      "status": 200,
+      "title": "Consejos para respuestas raras | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/daily/",
+      "status": 200,
+      "title": "Reto diario | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/",
+      "status": 200,
+      "title": "Inmersiones temáticas | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/geography/",
+      "status": 200,
+      "title": "Geografía — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/nature/",
+      "status": 200,
+      "title": "Naturaleza — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/science/",
+      "status": 200,
+      "title": "Ciencia — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/food/",
+      "status": 200,
+      "title": "Comida — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/arts/",
+      "status": 200,
+      "title": "Arte — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/themes/sports/",
+      "status": 200,
+      "title": "Deportes — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/krillion-unlimited/",
+      "status": 200,
+      "title": "Krillion Unlimited: práctica ilimitada explicada",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/geography-krillion/",
+      "status": 200,
+      "title": "Krillion Geography Unlimited: juega geografía",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/krillion-sports/",
+      "status": 200,
+      "title": "Krillion Sports: juega trivia de deportes",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/classroom-games/",
+      "status": 200,
+      "title": "Juegos para el aula: actividades de trivia gratis",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/krillion-unblocked/",
+      "status": 200,
+      "title": "Krillion Unblocked: trivia gratis en el navegador",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/es/faq/",
+      "status": 200,
+      "title": "Preguntas frecuentes | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/about/",
+      "status": 200,
+      "title": "Acerca de esta edición Unlimited | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/es/privacy/",
+      "status": 200,
+      "title": "Privacidad y datos locales | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/",
+      "status": 200,
+      "title": "Krillion em português — Jogue grátis e sem limites",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/guides/",
+      "status": 200,
+      "title": "Guias do jogo | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/how-to-play/",
+      "status": 200,
+      "title": "Como jogar Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/scoring/",
+      "status": 200,
+      "title": "Como funcionam pontos e profundidade | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/tips/",
+      "status": 200,
+      "title": "Dicas para respostas raras | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/daily/",
+      "status": 200,
+      "title": "Desafio diário | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/",
+      "status": 200,
+      "title": "Mergulhos temáticos | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/geography/",
+      "status": 200,
+      "title": "Geografia — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/nature/",
+      "status": 200,
+      "title": "Natureza — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/science/",
+      "status": 200,
+      "title": "Ciência — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/food/",
+      "status": 200,
+      "title": "Comida — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/arts/",
+      "status": 200,
+      "title": "Artes — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/themes/sports/",
+      "status": 200,
+      "title": "Esportes — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/krillion-unlimited/",
+      "status": 200,
+      "title": "Krillion Unlimited: prática ilimitada explicada",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/geography-krillion/",
+      "status": 200,
+      "title": "Krillion Geography Unlimited: jogue geografia",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/krillion-sports/",
+      "status": 200,
+      "title": "Krillion Sports: jogue trivia de esportes",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/classroom-games/",
+      "status": 200,
+      "title": "Jogos para a sala de aula: atividades de quiz grátis",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/krillion-unblocked/",
+      "status": 200,
+      "title": "Krillion Unblocked: trivia grátis no navegador",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/pt/faq/",
+      "status": 200,
+      "title": "Perguntas frequentes | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/about/",
+      "status": 200,
+      "title": "Sobre esta edição Unlimited | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/pt/privacy/",
+      "status": 200,
+      "title": "Privacidade e dados locais | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/",
+      "status": 200,
+      "title": "Krillion en français — Quiz gratuit et illimité",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/guides/",
+      "status": 200,
+      "title": "Guides du jeu | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/how-to-play/",
+      "status": 200,
+      "title": "Comment jouer à Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/scoring/",
+      "status": 200,
+      "title": "Comment fonctionnent score et profondeur | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/tips/",
+      "status": 200,
+      "title": "Conseils pour les réponses rares | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/daily/",
+      "status": 200,
+      "title": "Défi quotidien | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/",
+      "status": 200,
+      "title": "Plongées à thème | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/geography/",
+      "status": 200,
+      "title": "Géographie — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/nature/",
+      "status": 200,
+      "title": "Nature — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/science/",
+      "status": 200,
+      "title": "Sciences — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/food/",
+      "status": 200,
+      "title": "Cuisine — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/arts/",
+      "status": 200,
+      "title": "Arts — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/themes/sports/",
+      "status": 200,
+      "title": "Sports — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/krillion-unlimited/",
+      "status": 200,
+      "title": "Krillion Unlimited : comprendre la pratique illimitée",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/geography-krillion/",
+      "status": 200,
+      "title": "Krillion Geography Unlimited : quiz de géographie",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/krillion-sports/",
+      "status": 200,
+      "title": "Krillion Sports : jouez au quiz de sport",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/classroom-games/",
+      "status": 200,
+      "title": "Jeux en classe : activités de quiz gratuites",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/krillion-unblocked/",
+      "status": 200,
+      "title": "Krillion Unblocked : quiz gratuit dans le navigateur",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/fr/faq/",
+      "status": 200,
+      "title": "Questions fréquentes | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/about/",
+      "status": 200,
+      "title": "À propos de cette édition Unlimited | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/fr/privacy/",
+      "status": 200,
+      "title": "Confidentialité et données locales | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/",
+      "status": 200,
+      "title": "Krillion Deutsch — Kostenlos auf Deutsch spielen",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/guides/",
+      "status": 200,
+      "title": "Spielratgeber | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/how-to-play/",
+      "status": 200,
+      "title": "So spielst du Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/scoring/",
+      "status": 200,
+      "title": "So funktionieren Punkte und Tiefe | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/tips/",
+      "status": 200,
+      "title": "Tipps für seltene Antworten | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/daily/",
+      "status": 200,
+      "title": "Tägliche Challenge | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/",
+      "status": 200,
+      "title": "Themenrunden | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/geography/",
+      "status": 200,
+      "title": "Geografie — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/nature/",
+      "status": 200,
+      "title": "Natur — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/science/",
+      "status": 200,
+      "title": "Wissenschaft — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/food/",
+      "status": 200,
+      "title": "Essen — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/arts/",
+      "status": 200,
+      "title": "Kunst — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/themes/sports/",
+      "status": 200,
+      "title": "Sport — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/krillion-unlimited/",
+      "status": 200,
+      "title": "Krillion Unlimited: unbegrenzt üben erklärt",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/geography-krillion/",
+      "status": 200,
+      "title": "Krillion Geography Unlimited: Geografie spielen",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/krillion-sports/",
+      "status": 200,
+      "title": "Krillion Sports: Sportquiz kostenlos spielen",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/classroom-games/",
+      "status": 200,
+      "title": "Spiele im Unterricht: kostenlose Quiz-Aktivitäten",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/krillion-unblocked/",
+      "status": 200,
+      "title": "Krillion Unblocked: Kostenloses Browserquiz",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/de/faq/",
+      "status": 200,
+      "title": "Häufige Fragen | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/about/",
+      "status": 200,
+      "title": "Über diese Unlimited-Ausgabe | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/de/privacy/",
+      "status": 200,
+      "title": "Datenschutz und lokale Daten | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/",
+      "status": 200,
+      "title": "Krillion Unlimited — 免费冷门知识问答，无限开局",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/guides/",
+      "status": 200,
+      "title": "游戏攻略 | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/how-to-play/",
+      "status": 200,
+      "title": "Krillion Unlimited 游戏规则",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/scoring/",
+      "status": 200,
+      "title": "分数与深度如何计算 | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/tips/",
+      "status": 200,
+      "title": "冷门答案技巧 | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/daily/",
+      "status": 200,
+      "title": "每日挑战 | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/",
+      "status": 200,
+      "title": "主题潜航 | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/geography/",
+      "status": 200,
+      "title": "地理 — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/nature/",
+      "status": 200,
+      "title": "自然 — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/science/",
+      "status": 200,
+      "title": "科学 — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/food/",
+      "status": 200,
+      "title": "美食 — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/arts/",
+      "status": 200,
+      "title": "艺术 — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/themes/sports/",
+      "status": 200,
+      "title": "体育 — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/krillion-unlimited/",
+      "status": 200,
+      "title": "Krillion Unlimited 无限练习模式详解",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/geography-krillion/",
+      "status": 200,
+      "title": "Krillion Geography Unlimited：免费地理问答",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/krillion-sports/",
+      "status": 200,
+      "title": "Krillion Sports：免费体育知识问答",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/classroom-games/",
+      "status": 200,
+      "title": "Classroom Games：免费课堂游戏与教师活动指南",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/krillion-unblocked/",
+      "status": 200,
+      "title": "Krillion Unblocked：免费浏览器知识问答",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/zh/faq/",
+      "status": 200,
+      "title": "常见问题 | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/about/",
+      "status": 200,
+      "title": "关于这个 Unlimited 版本 | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/zh/privacy/",
+      "status": 200,
+      "title": "隐私与本地数据 | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/",
+      "status": 200,
+      "title": "Krillion Unlimited — 珍しい答えを探す無料クイズ、何度でも遊べる",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/guides/",
+      "status": 200,
+      "title": "ゲームガイド | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/how-to-play/",
+      "status": 200,
+      "title": "Krillion Unlimitedの遊び方",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/scoring/",
+      "status": 200,
+      "title": "得点と深度の仕組み | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/tips/",
+      "status": 200,
+      "title": "珍しい答えのコツ | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/daily/",
+      "status": 200,
+      "title": "デイリーチャレンジ | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/",
+      "status": 200,
+      "title": "テーマダイブ | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/geography/",
+      "status": 200,
+      "title": "地理 — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/nature/",
+      "status": 200,
+      "title": "自然 — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/science/",
+      "status": 200,
+      "title": "科学 — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/food/",
+      "status": 200,
+      "title": "食べ物 — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/arts/",
+      "status": 200,
+      "title": "芸術 — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/themes/sports/",
+      "status": 200,
+      "title": "スポーツ — Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/krillion-unlimited/",
+      "status": 200,
+      "title": "Krillion Unlimited：無制限の練習を解説",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/geography-krillion/",
+      "status": 200,
+      "title": "Krillion Geography Unlimited：無料地理クイズ",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/krillion-sports/",
+      "status": 200,
+      "title": "Krillion Sports：無料スポーツクイズ",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/classroom-games/",
+      "status": 200,
+      "title": "授業で使えるゲーム：無料クイズ活動ガイド",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/krillion-unblocked/",
+      "status": 200,
+      "title": "Krillion Unblocked：無料ブラウザクイズ",
+      "application_scripts": 1,
+      "passed": true
+    },
+    {
+      "path": "/ja/faq/",
+      "status": 200,
+      "title": "よくある質問 | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/about/",
+      "status": 200,
+      "title": "このUnlimited版について | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    },
+    {
+      "path": "/ja/privacy/",
+      "status": 200,
+      "title": "プライバシーとローカルデータ | Krillion Unlimited",
+      "application_scripts": 0,
+      "passed": true
+    }
+  ],
+  "endpoints": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "urls": 147,
+      "passed": true
+    },
+    {
+      "path": "/sitemap-guides.xml",
+      "status": 200,
+      "urls": 35,
+      "passed": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/v13-no-such-page/",
+      "status": 404,
+      "passed": true
+    }
+  ],
+  "initial_failed_probes": [],
+  "summary": {
+    "pages_passed": 147,
+    "pages_total": 147,
+    "endpoints_passed": 4,
+    "endpoints_total": 4
+  },
+  "tests_passed": 26,
+  "keyword_data_source": "User-reported Search Console clicks and impressions, not independently retrieved; reporting window and average positions not supplied. No Ahrefs KD or competition measurement was made.",
+  "deployment_version": "026007fc-3c4e-4125-81d2-e049a095c0ba",
+  "browser": {
+    "v13nativeBrowser": [
+      {
+        "lang": "es",
+        "title": "Krillion en español — Juega gratis y sin límite",
+        "heading": "Krillion en español",
+        "width": {
+          "viewport": 390,
+          "document": 390
+        },
+        "prompt": "Nombra un ejemplo: una forma poética",
+        "timer": "∞",
+        "answer": "“Soneto”",
+        "reward": "+10 PTS · baja 100m"
+      },
+      {
+        "lang": "de",
+        "title": "Krillion Deutsch — Kostenlos auf Deutsch spielen",
+        "heading": "Krillion Deutsch",
+        "width": {
+          "viewport": 390,
+          "document": 390
+        },
+        "prompt": "Nenne ein Beispiel: eine Gedichtform",
+        "timer": "∞",
+        "answer": "“Sonett”",
+        "reward": "+10 PKT · 100m tiefer"
+      },
+      {
+        "lang": "pt",
+        "title": "Krillion em português — Jogue grátis e sem limites",
+        "heading": "Krillion em português",
+        "width": {
+          "viewport": 390,
+          "document": 390
+        },
+        "prompt": "Dê um exemplo: uma forma poética",
+        "timer": "∞",
+        "answer": "“Soneto”",
+        "reward": "+10 PTS · desça 100m"
+      },
+      {
+        "lang": "fr",
+        "title": "Krillion en français — Quiz gratuit et illimité",
+        "heading": "Krillion en français",
+        "width": {
+          "viewport": 390,
+          "document": 390
+        },
+        "prompt": "Donnez un exemple : une forme poétique",
+        "timer": "∞",
+        "answer": "“Sonnet”",
+        "reward": "+10 PTS · descente 100m"
+      }
+    ],
+    "v13sportsBrowser": {
+      "category": "Sports",
+      "prompts": [
+        "Name a Summer Olympic racket sport",
+        "Name a snooker ball colour",
+        "Name a baseball fielding position",
+        "Name a water sport",
+        "Name a combat sport",
+        "Name one of the three triathlon disciplines",
+        "Name a decathlon event"
+      ],
+      "score": "70\npoints",
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    "v13geoBrowser": {
+      "category": "Geography",
+      "heading": "Krillion Geography Unlimited",
+      "prompts": [
+        "Name a country that borders Germany",
+        "Name a national capital in South America",
+        "Name one of the five Great Lakes",
+        "Name a European Union member country",
+        "Name one of the seven continents in the common seven-continent model",
+        "Name a country that the equator crosses on land",
+        "Name a country sharing a land border with Finland"
+      ],
+      "score": "70\npoints",
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    "v13switchBrowser": {
+      "url": "http://127.0.0.1:8793/de/krillion-sports/?seed=v13sports",
+      "previous_reward": "+10 PKT · 100m tiefer",
+      "next_prompt": "Nenne ein Beispiel: eine Snooker-Ballfarbe",
+      "timer": "∞"
+    },
+    "v13liveSports": {
+      "title": "Krillion Sports: Play Unlimited Sports Trivia",
+      "prompts": [
+        "Name a Summer Olympic racket sport",
+        "Name a snooker ball colour",
+        "Name a baseball fielding position",
+        "Name a water sport",
+        "Name a combat sport",
+        "Name one of the three triathlon disciplines",
+        "Name a decathlon event"
+      ],
+      "score": "70\npoints",
+      "next_round_timer": "∞",
+      "next_round_prompt": "Name a Summer Olympic racket sport",
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    "v13liveNative": [
+      {
+        "lang": "es",
+        "title": "Krillion en español — Juega gratis y sin límite",
+        "heading": "Krillion en español",
+        "width": {
+          "viewport": 390,
+          "document": 390
+        },
+        "prompt": "Nombra un ejemplo: una forma poética",
+        "reward": "+10 PTS · baja 100m"
+      },
+      {
+        "lang": "de",
+        "title": "Krillion Deutsch — Kostenlos auf Deutsch spielen",
+        "heading": "Krillion Deutsch",
+        "width": {
+          "viewport": 390,
+          "document": 390
+        },
+        "prompt": "Nenne ein Beispiel: eine Gedichtform",
+        "reward": "+10 PKT · 100m tiefer"
+      },
+      {
+        "lang": "pt",
+        "title": "Krillion em português — Jogue grátis e sem limites",
+        "heading": "Krillion em português",
+        "width": {
+          "viewport": 390,
+          "document": 390
+        },
+        "prompt": "Dê um exemplo: uma forma poética",
+        "reward": "+10 PTS · desça 100m"
+      },
+      {
+        "lang": "fr",
+        "title": "Krillion en français — Quiz gratuit et illimité",
+        "heading": "Krillion en français",
+        "width": {
+          "viewport": 390,
+          "document": 390
+        },
+        "prompt": "Donnez un exemple : une forme poétique",
+        "reward": "+10 PTS · descente 100m"
+      }
+    ],
+    "v13liveModes": [
+      {
+        "url": "https://unlimited-krillion.com/geography-krillion/",
+        "title": "Krillion Geography Unlimited: Play Free Geography Trivia",
+        "heading": "Krillion Geography Unlimited",
+        "default_category": "Geography",
+        "width": {
+          "viewport": 390,
+          "document": 390
+        },
+        "prompt": "Name a country sharing a land border with Italy",
+        "timer": "∞"
+      },
+      {
+        "url": "https://unlimited-krillion.com/krillion-unblocked/",
+        "title": "Krillion Unblocked: Free Browser Trivia",
+        "heading": "Krillion Unblocked",
+        "default_category": "All",
+        "width": {
+          "viewport": 390,
+          "document": 390
+        },
+        "prompt": "Name an individual outdoor athletics running distance",
+        "timer": "∞"
+      }
+    ]
+  },
+  "gsc_submission": "No new indexing request or sitemap resubmission was performed. Existing public sitemap URLs now serve the updated content.",
+  "italian": "Deferred at the user’s request; seven existing languages retained.",
+  "local_preview_note": "Wrangler local dev returned a self-redirect; UI tests used the generated static preview. Production HTTP and real browser acceptance passed separately.",
+  "page_audit_deployment_version": "dc1633f3-fcd4-4243-819c-f21b961474e6",
+  "final_deployment_change": "Only style.css changed after the full 147-page HTTP audit, to reserve space beside the mobile utility buttons. Five affected mobile pages were checked again on production.",
+  "final_mobile_checked_at": "2026-10-13T03:19:08.797335+00:00",
+  "live_mobile_geometry": [
+    {
+      "path": "/es/",
+      "title_right": 340,
+      "utility_left": 345,
+      "title_scroll_width": 290,
+      "title_width": 290,
+      "document_width": 390,
+      "viewport": 390
+    },
+    {
+      "path": "/pt/",
+      "title_right": 340,
+      "utility_left": 345,
+      "title_scroll_width": 290,
+      "title_width": 290,
+      "document_width": 390,
+      "viewport": 390
+    },
+    {
+      "path": "/de/",
+      "title_right": 340,
+      "utility_left": 345,
+      "title_scroll_width": 290,
+      "title_width": 290,
+      "document_width": 390,
+      "viewport": 390
+    },
+    {
+      "path": "/fr/",
+      "title_right": 340,
+      "utility_left": 345,
+      "title_scroll_width": 290,
+      "title_width": 290,
+      "document_width": 390,
+      "viewport": 390
+    },
+    {
+      "path": "/geography-krillion/",
+      "title_right": 340,
+      "utility_left": 345,
+      "title_scroll_width": 290,
+      "title_width": 290,
+      "document_width": 390,
+      "viewport": 390
+    }
+  ]
+}

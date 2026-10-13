@@ -42,9 +42,13 @@ Local alias coverage does not mean every possible answer has been translated. De
 
 ## Website and guides
 
-The website includes **140 distinct content URLs**: 20 page types in each of seven languages. These cover the game, guide hub, rules, scoring, tips, daily challenges, theme hub, six category guides, four keyword/use-case guides, FAQ, about, and privacy.
+The website includes **147 distinct content URLs**: 21 page types in each of seven languages. These cover the game, guide hub, rules, scoring, tips, daily challenges, theme hub, six category libraries, five keyword/use-case pages, FAQ, about, and privacy.
 
-New explanations: [Krillion Unlimited](https://unlimited-krillion.com/krillion-unlimited/), [Geography Krillion](https://unlimited-krillion.com/geography-krillion/), and [Krillion Sports](https://unlimited-krillion.com/krillion-sports/). Each has seven language versions. Word-order URL variants redirect to their canonical guide.
+Play [Krillion Sports](https://unlimited-krillion.com/krillion-sports/) or [Krillion Geography Unlimited](https://unlimited-krillion.com/geography-krillion/) directly on their topic pages. Each opens with the actual game and preselects its category; untimed practice is the default, with a timer available in Settings. The learning examples and question libraries remain below the game. Both have seven language versions and keep their existing canonical URLs.
+
+[Krillion Unblocked](https://unlimited-krillion.com/krillion-unblocked/) offers the mixed browser game without a download or account, plus information about permitted school-network use. It does not guarantee network access or provide a proxy. Read the [unlimited-practice explanation](https://unlimited-krillion.com/krillion-unlimited/) for replay and question-bank limits.
+
+Spanish, German, Portuguese and French homepages have native-language titles and visible examples of registered local answers. Existing language controls preserve the current topic-page URL and saved dive. Italian is not yet available.
 
 Useful starting points:
 

@@ -11,7 +11,7 @@ for(const host of ['krillion-practice.guyuedumingx.workers.dev','www.unlimited-k
 }
 const insecure=await worker.fetch(new Request('http://unlimited-krillion.com/zh?x=1'),env);assert.equal(insecure.status,301);assert.equal(insecure.headers.get('Location'),env.SITE_ORIGIN+'/zh/?x=1');
 const apex=await worker.fetch(new Request(env.SITE_ORIGIN+'/'),env);assert.equal(apex.status,200);assert.equal(apex.headers.get('Location'),null);assert.ok((await apex.text()).includes(env.SITE_ORIGIN));
-const xml=await(await worker.fetch(new Request(env.SITE_ORIGIN+'/sitemap.xml'),env)).text();assert.equal([...xml.matchAll(/<loc>/g)].length,140);assert.ok(!xml.includes('workers.dev'));assert.ok(xml.includes(env.SITE_ORIGIN+'/zh/'));
+const xml=await(await worker.fetch(new Request(env.SITE_ORIGIN+'/sitemap.xml'),env)).text();assert.equal([...xml.matchAll(/<loc>/g)].length,147);assert.ok(!xml.includes('workers.dev'));assert.ok(xml.includes(env.SITE_ORIGIN+'/zh/'));
 });
 
 test('real AdSense code uses a fresh nonce on every trusted script and never on error pages',async()=>{
@@ -31,7 +31,7 @@ test('text sitemap is an equivalent canonical discovery fallback and consent pre
  const env={SITE_ORIGIN:'https://example.com',ASSETS:{fetch:async()=>new Response('<head></head>',{headers:{'Content-Type':'text/html'}})}};
  const txt=await worker.fetch(new Request('https://example.com/sitemap.txt'),env),urls=(await txt.text()).trim().split('\n');
  const xml=await(await worker.fetch(new Request('https://example.com/sitemap.xml'),env)).text();
- assert.equal(urls.length,140);assert.equal(new Set(urls).size,140);assert.deepEqual(urls,[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]));
+ assert.equal(urls.length,147);assert.equal(new Set(urls).size,147);assert.deepEqual(urls,[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]));
  assert.ok((await(await worker.fetch(new Request('https://example.com/robots.txt'),env)).text()).includes('Sitemap: https://example.com/sitemap.txt'));
  assert.equal((await worker.fetch(new Request('https://example.com/?fc=alwaysshow&fctype=gdpr'),env)).headers.get('X-Robots-Tag'),'noindex, follow');
 });
