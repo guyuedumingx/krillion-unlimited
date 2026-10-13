@@ -23,3 +23,34 @@ body[data-intent-entry] .home-title h2{letter-spacing:2px;margin:16px auto;line-
 .seo-hub table{width:100%;border-collapse:collapse}.seo-hub th,.seo-hub td{padding:10px;border-bottom:1px solid #31455a;text-align:left}
 .native-intro li{margin:10px 0}.seo-hub h3{font:600 19px/1.5 system-ui,sans-serif;color:#bce0e5}
 @media(max-width:650px){body[data-intent-entry] .home-title{width:calc(100% - 100px)}body[data-intent-entry] .home-title h1{font-size:34px;letter-spacing:0;line-height:1.15}body[data-intent-entry] .home-title h2{font-size:17px;margin-top:14px}.intent-links{grid-template-columns:1fr}}
+
+/* During play, Safari's keyboard can shrink AND pan the visible viewport.
+   Keep the shell there without the old 400px minimum or document scrolling. */
+body:has(.viewport):not([data-phase=home]){overscroll-behavior:none}
+body:not([data-phase=home]) .viewport{position:fixed;top:var(--visible-top,0px);left:var(--visible-left,0px);width:100%;min-height:0;overscroll-behavior:none}
+.menu-toggle{top:calc(16px + env(safe-area-inset-top,0px));left:max(12px,env(safe-area-inset-left,0px))}
+.hud{top:calc(15px + env(safe-area-inset-top,0px))}
+.utility{top:calc(82px + env(safe-area-inset-top,0px));right:max(8px,env(safe-area-inset-right,0px))}
+body[data-compact-game] .utility,body[data-compact-game] .zone-label,body[data-compact-game] .depth-ruler{display:none}
+body[data-compact-game] #game{position:absolute;inset:calc(76px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(10px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:12px;min-height:0}
+body[data-compact-game] .prompt-card,body[data-compact-game] .result-splash,body[data-compact-game] .finished{position:static;transform:none;width:100%;max-width:610px;align-self:center;flex:1;min-height:0;margin:0;overflow:auto;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch}
+body[data-compact-game] .prompt-card{padding:12px 16px;box-shadow:none;border:1px solid #294258}
+body[data-compact-game] .prompt-card h2{font-size:clamp(19px,5vw,26px);line-height:1.2;margin:8px 0;overflow-wrap:anywhere}
+body[data-compact-game] .prompt-card p{display:none}
+body[data-compact-game] .prompt-card .overline{font-size:12px;letter-spacing:1px}
+body[data-compact-game] .dock{position:static;transform:none;flex:none;align-self:center;width:100%;max-width:610px;margin:0}
+body[data-compact-game] .feedback{font:14px/1.25 system-ui,sans-serif;min-height:0;max-height:48px;overflow-y:auto;margin:0 0 6px;overflow-wrap:anywhere}
+body[data-compact-game] .feedback:empty{display:none}
+body[data-compact-game] .answer-dock input{height:48px;font-size:18px;padding:8px;scroll-margin:12px}
+body[data-compact-game] .answer-dock button{height:48px;font-size:18px;padding:0 10px}
+body[data-compact-game] .clock{width:38px;height:38px;font-size:23px}
+body[data-compact-game] .time-track{margin:5px 70px 0 44px}
+body[data-compact-game] .small-row{align-items:center;gap:8px;margin-top:4px;font-size:12px}
+body[data-compact-game] .small-row span{text-align:right}
+body[data-compact-game] .link-button{min-height:32px;min-width:44px}
+body[data-compact-game] .result-splash h2{font-size:28px;margin:4px 0 10px}
+body[data-compact-game] .result-splash .learning{margin-top:10px}
+/* Extra-tall keyboards leave very little room. Prioritize the prompt and answer
+   until the keyboard closes; the regular HUD and menu then return. */
+body[data-tight-game] .hud,body[data-tight-game] .menu-toggle{display:none}
+body[data-tight-game] #game{top:calc(12px + env(safe-area-inset-top,0px));gap:8px}
