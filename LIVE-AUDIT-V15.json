@@ -1,0 +1,840 @@
+{
+  "date": "2026-10-16",
+  "origin": "https://unlimited-krillion.com/",
+  "version": "5b2ddc03-cd5a-4910-9eea-6a8fbcca01d6",
+  "placement": {
+    "websiteId": 6126825,
+    "websiteStatus": "Approved",
+    "name": "NativeBanner_1",
+    "id": 31758881,
+    "status": "Active",
+    "layout": "2:1",
+    "adultAdsEnabled": false
+  },
+  "automatedTests": {
+    "passed": 33,
+    "failed": 0
+  },
+  "localBrowser": {
+    "kind": "Simulated vendor SDK in local Worker preview; not real ad delivery",
+    "locales": [
+      "en",
+      "es",
+      "pt",
+      "fr",
+      "de",
+      "zh",
+      "ja"
+    ],
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "passedChecks": [
+      "No SDK request before regional opt-in",
+      "Exactly one request after allowance",
+      "No request after refusal/reload",
+      "Placement hidden during gameplay",
+      "No horizontal overflow"
+    ]
+  },
+  "productionHttp": {
+    "pages": 147,
+    "passed": 147,
+    "nativePlacements": 133,
+    "checks": [
+      "Self canonical retained",
+      "GA4 and AdSense retained",
+      "Exactly one classroom-games.net footer link",
+      "Native placement exclusions on privacy/about",
+      "Localized privacy disclosure"
+    ],
+    "results": [
+      {
+        "path": "/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/guides/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/how-to-play/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/scoring/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/tips/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/daily/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/themes/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/themes/geography/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/themes/nature/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/themes/science/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/themes/food/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/themes/arts/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/themes/sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/krillion-unlimited/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/geography-krillion/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/krillion-sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/classroom-games/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/krillion-unblocked/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/faq/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/about/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/privacy/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/es/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/guides/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/how-to-play/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/scoring/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/tips/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/daily/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/themes/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/themes/geography/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/themes/nature/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/themes/science/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/themes/food/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/themes/arts/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/themes/sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/krillion-unlimited/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/geography-krillion/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/krillion-sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/classroom-games/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/krillion-unblocked/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/faq/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/es/about/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/es/privacy/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/pt/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/guides/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/how-to-play/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/scoring/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/tips/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/daily/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/themes/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/themes/geography/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/themes/nature/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/themes/science/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/themes/food/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/themes/arts/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/themes/sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/krillion-unlimited/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/geography-krillion/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/krillion-sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/classroom-games/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/krillion-unblocked/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/faq/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/pt/about/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/pt/privacy/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/fr/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/guides/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/how-to-play/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/scoring/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/tips/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/daily/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/themes/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/themes/geography/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/themes/nature/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/themes/science/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/themes/food/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/themes/arts/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/themes/sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/krillion-unlimited/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/geography-krillion/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/krillion-sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/classroom-games/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/krillion-unblocked/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/faq/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/fr/about/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/fr/privacy/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/de/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/guides/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/how-to-play/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/scoring/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/tips/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/daily/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/themes/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/themes/geography/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/themes/nature/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/themes/science/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/themes/food/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/themes/arts/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/themes/sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/krillion-unlimited/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/geography-krillion/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/krillion-sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/classroom-games/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/krillion-unblocked/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/faq/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/de/about/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/de/privacy/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/zh/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/guides/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/how-to-play/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/scoring/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/tips/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/daily/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/themes/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/themes/geography/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/themes/nature/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/themes/science/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/themes/food/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/themes/arts/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/themes/sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/krillion-unlimited/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/geography-krillion/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/krillion-sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/classroom-games/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/krillion-unblocked/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/faq/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/zh/about/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/zh/privacy/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/ja/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/guides/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/how-to-play/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/scoring/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/tips/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/daily/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/themes/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/themes/geography/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/themes/nature/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/themes/science/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/themes/food/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/themes/arts/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/themes/sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/krillion-unlimited/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/geography-krillion/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/krillion-sports/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/classroom-games/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/krillion-unblocked/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/faq/",
+        "nativePlacements": 1,
+        "passed": true
+      },
+      {
+        "path": "/ja/about/",
+        "nativePlacements": 0,
+        "passed": true
+      },
+      {
+        "path": "/ja/privacy/",
+        "nativePlacements": 0,
+        "passed": true
+      }
+    ]
+  },
+  "productionBrowser": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "sdkRequests": 1,
+      "sdkStatus": 403,
+      "sdkBodyBytes": 0,
+      "containerChildren": 0,
+      "placementHiddenOnError": true,
+      "documentWidth": 1280,
+      "pageErrors": [
+        "int64 (origin unattributed)"
+      ]
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "sdkRequests": 1,
+      "sdkStatus": 403,
+      "sdkBodyBytes": 0,
+      "containerChildren": 0,
+      "placementHiddenOnError": true,
+      "documentWidth": 390,
+      "pageErrors": []
+    },
+    "regularChrome": {
+      "scriptAdded": true,
+      "containerHeight": 0,
+      "containerImages": 0,
+      "containerIframes": 0,
+      "placementHiddenOnError": true,
+      "sdkHttpStatus": null
+    }
+  },
+  "support": {
+    "userAuthorized": true,
+    "messageSent": true,
+    "aiEscalationAcknowledged": true,
+    "humanResolutionReceived": false,
+    "regularChromeStatusClarified": true,
+    "humanSpecialistJoined": true,
+    "pendingQuestion": "VPN/proxy use during review; clean browser tests shared one network and did not rule out IP filtering"
+  },
+  "boundaries": [
+    "No actual Adsterra creative observed",
+    "No accepted impressions, revenue or payout claim",
+    "No Popunder, Social Bar, Smartlink or anti-adblock integration",
+    "No payment settings changed",
+    "No physical iPhone keyboard acceptance in this release"
+  ]
+}

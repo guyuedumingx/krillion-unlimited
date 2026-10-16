@@ -145,7 +145,7 @@ Each prompt has an ID, category, prompt text, registered answers and aliases, a 
 
 When changing questions or scoring, increment `BANK_VERSION` in `src/bank.js` (currently `3`). Shared challenges and saved rounds are versioned so an old link cannot silently change its questions or scores. Add translated prompts and check local alias ambiguity alongside new questions. Verify facts and source links before expanding the bank.
 
-The build validates question IDs, answer aliases, category coverage, and translated prompts. The **29 automated tests** cover deterministic decks, answer grading, correction, saves, sharing, localization, canonical routing, sitemaps, structured data, CSP, AdSense, GA4 injection, and keyboard viewport resize/pan/zoom behavior.
+The build validates question IDs, answer aliases, category coverage, and translated prompts. The **33 automated tests** cover deterministic decks, answer grading, correction, saves, sharing, localization, canonical routing, sitemaps, structured data, CSP, AdSense, GA4 injection, and keyboard viewport resize/pan/zoom behavior.
 
 ```sh
 npm run build
@@ -166,3 +166,5 @@ Keyword-guide architecture and link/discovery plan: [SEO launch notes](SEO-LAUNC
 Classroom activities for teachers: [Classroom Games](https://unlimited-krillion.com/classroom-games/) — projected warm-ups, team answer challenges and lesson review, with localized versions in all seven languages.
 
 Mobile input: tap the answer field to open your keyboard. The game follows the visible area above it, keeps answer controls in view, and allows long prompts to scroll. Extra-short views prioritize the prompt and input until the keyboard closes. Pinch zoom remains enabled. See [V14 verification](LIVE-AUDIT-V14.json); browser simulations do not constitute physical iPhone keyboard acceptance.
+
+Optional Adsterra native advertising is configured in guide content, alongside the existing AdSense integration. It has separate visitor preferences and stays outside gameplay. See [setup and current serving limitation](ADSTERRA-SETUP.md): the provider script returned HTTP 403 during live checks, so actual Adsterra ad delivery is unconfirmed.

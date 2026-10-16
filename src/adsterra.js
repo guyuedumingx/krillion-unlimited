@@ -1,0 +1,37 @@
+export const adsterraCopy = {
+ en:{ad:'Advertisement',preferences:'Adsterra ad preferences',description:'Adsterra is an optional advertising partner. Its ads may use cookies, your IP address and browser information to deliver and measure advertising. This choice is separate from Google advertising settings.',allow:'Allow Adsterra ads',deny:'Keep Adsterra ads off',close:'Close',prompt:'Choose whether to load optional Adsterra advertising.',privacy:'This site also offers Adsterra native advertising in the content area. Adsterra and its partners may process IP addresses, browser information and cookies to deliver and measure ads. Adsterra ad preferences in the footer let you change this choice. These preferences are separate from Google consent settings; no game answers or saved scores are sent to Adsterra.'},
+ es:{ad:'Publicidad',preferences:'Preferencias de anuncios de Adsterra',description:'Adsterra es un socio publicitario opcional. Sus anuncios pueden usar cookies, tu dirección IP e información del navegador para mostrar y medir publicidad. Esta elección es independiente de la configuración de Google.',allow:'Permitir anuncios de Adsterra',deny:'Mantener Adsterra desactivado',close:'Cerrar',prompt:'Elige si quieres cargar publicidad opcional de Adsterra.',privacy:'Este sitio también ofrece publicidad nativa de Adsterra en el área de contenido. Adsterra y sus socios pueden tratar direcciones IP, datos del navegador y cookies para mostrar y medir anuncios. Puedes cambiar tu elección en las preferencias de Adsterra del pie de página, independientemente del consentimiento de Google. No enviamos respuestas ni puntuaciones guardadas a Adsterra.'},
+ pt:{ad:'Publicidade',preferences:'Preferências de anúncios da Adsterra',description:'A Adsterra é uma parceira de publicidade opcional. Os anúncios podem usar cookies, seu IP e informações do navegador para exibir e medir publicidade. Esta escolha é separada das configurações do Google.',allow:'Permitir anúncios da Adsterra',deny:'Manter a Adsterra desativada',close:'Fechar',prompt:'Escolha se deseja carregar publicidade opcional da Adsterra.',privacy:'Este site também oferece anúncios nativos da Adsterra na área de conteúdo. A Adsterra e parceiros podem processar IP, informações do navegador e cookies para exibir e medir anúncios. As preferências da Adsterra no rodapé permitem mudar sua escolha, separadamente do consentimento do Google. Não enviamos respostas nem pontuações salvas à Adsterra.'},
+ fr:{ad:'Publicité',preferences:'Préférences publicitaires Adsterra',description:'Adsterra est un partenaire publicitaire facultatif. Ses annonces peuvent utiliser des cookies, votre adresse IP et des informations du navigateur pour afficher et mesurer la publicité. Ce choix est distinct des paramètres Google.',allow:'Autoriser les annonces Adsterra',deny:'Garder Adsterra désactivé',close:'Fermer',prompt:'Choisissez si vous souhaitez charger les publicités facultatives Adsterra.',privacy:'Ce site propose aussi des publicités natives Adsterra dans le contenu. Adsterra et ses partenaires peuvent traiter des adresses IP, des informations du navigateur et des cookies pour afficher et mesurer les annonces. Les préférences Adsterra du pied de page permettent de modifier ce choix, indépendamment du consentement Google. Nous ne transmettons ni réponses ni scores enregistrés à Adsterra.'},
+ de:{ad:'Werbung',preferences:'Adsterra-Werbeeinstellungen',description:'Adsterra ist ein optionaler Werbepartner. Die Anzeigen können Cookies, deine IP-Adresse und Browserinformationen zur Auslieferung und Messung von Werbung nutzen. Diese Auswahl ist von den Google-Einstellungen unabhängig.',allow:'Adsterra-Anzeigen erlauben',deny:'Adsterra ausgeschaltet lassen',close:'Schließen',prompt:'Entscheide, ob optionale Adsterra-Werbung geladen werden darf.',privacy:'Diese Website bietet auch native Adsterra-Anzeigen im Inhaltsbereich an. Adsterra und Partner können IP-Adressen, Browserinformationen und Cookies zur Auslieferung und Messung von Werbung verarbeiten. Über die Adsterra-Werbeeinstellungen in der Fußzeile kannst du diese Auswahl unabhängig von Google ändern. Spielantworten und gespeicherte Punkte werden nicht an Adsterra gesendet.'},
+ zh:{ad:'广告',preferences:'Adsterra 广告设置',description:'Adsterra 是可选广告合作方，广告可能使用 Cookie、IP 地址和浏览器信息进行展示与衡量。这项选择与 Google 广告设置分开管理。',allow:'允许 Adsterra 广告',deny:'保持关闭 Adsterra 广告',close:'关闭',prompt:'请选择是否加载可选的 Adsterra 广告。',privacy:'本站还在内容区提供 Adsterra 原生广告。Adsterra 及合作伙伴可能处理 IP 地址、浏览器信息和 Cookie，用于展示和衡量广告。你可以通过页脚的“Adsterra 广告设置”修改选择；这项选择与 Google 同意设置分开管理。本站不会向 Adsterra 发送游戏答案或本地成绩。'},
+ ja:{ad:'広告',preferences:'Adsterra広告の設定',description:'Adsterraは任意の広告パートナーです。広告の配信と測定にCookie、IPアドレス、ブラウザ情報を使用する場合があります。Googleの広告設定とは別の選択です。',allow:'Adsterra広告を許可',deny:'Adsterra広告を無効のままにする',close:'閉じる',prompt:'任意のAdsterra広告を読み込むか選択してください。',privacy:'このサイトではコンテンツ内にAdsterraのネイティブ広告も提供します。Adsterraとパートナーは広告の配信と測定にIPアドレス、ブラウザ情報、Cookieを処理する場合があります。フッターのAdsterra広告設定から、Googleへの同意とは別に選択を変更できます。ゲームの回答や保存した得点はAdsterraに送信しません。'},
+};
+
+export function nativeAdConfig(env) {
+ if(env.ADSTERRA_ENABLED!=='true')return null;
+ try {
+  const src=new URL(env.ADSTERRA_NATIVE_SCRIPT_URL);
+  const key=src.pathname.match(/^\/21\/([a-f0-9]{32})$/)?.[1]||src.pathname.match(/^\/([a-f0-9]{32})\/invoke\.js$/)?.[1];
+  if(src.protocol!=='https:'||src.username||src.password||src.port||src.search||src.hash||!key||!/^[a-z0-9.-]+\.[a-z]{2,}$/.test(src.hostname)||env.ADSTERRA_NATIVE_CONTAINER_ID!=='container-'+key)return null;
+  return {src:src.href,container:'container-'+key};
+ }catch{return null;}
+}
+
+export function needsAdsterraConsent(cf) {
+ const countries=new Set('AT BE BG HR CY CZ DK EE FI FR DE GR HU IE IT LV LT LU MT NL PL PT RO SK SI ES SE IS LI NO GB CH'.split(' '));
+ return !cf?.country||cf.isEUCountry===true||cf.isEUCountry==='1'||countries.has(cf.country);
+}
+
+export function injectAdsterra(html,config,lang,pathname,cf) {
+ const copy=adsterraCopy[lang]||adsterraCopy.en;
+ if(!/\/(privacy|about)\/$/.test(pathname)) {
+  const ad=`<aside class="adsterra-placement" data-adsterra-placement data-script="${config.src}" data-container="${config.container}" data-consent-required="${needsAdsterraConsent(cf)}" aria-label="${copy.ad}"><small>${copy.ad} · Adsterra</small><p data-adsterra-prompt hidden>${copy.prompt} <button class="consent-settings" data-adsterra-settings>${copy.preferences}</button></p><div id="${config.container}"></div></aside>`;
+  const area=html.indexOf('id="guide-content"')>=0?html.indexOf('id="guide-content"'):html.indexOf('<main class="document"');
+  const intro=area<0?-1:html.indexOf('</p>',area);
+  html=intro<0?html.replace('<footer class="content-footer">',ad+'<footer class="content-footer">'):html.slice(0,intro+4)+ad+html.slice(intro+4);
+ }
+ html=html.replace('<footer class="content-footer">',`<footer class="content-footer"><button class="consent-settings" data-adsterra-settings>${copy.preferences}</button>`);
+ const dialog=`<dialog id="adsterra-consent" aria-labelledby="adsterra-consent-title"><h2 id="adsterra-consent-title">${copy.preferences}</h2><p>${copy.description}</p><div class="adsterra-consent-actions"><button data-adsterra-choice="allow">${copy.allow}</button><button data-adsterra-choice="deny">${copy.deny}</button><button data-adsterra-close>${copy.close}</button></div></dialog>`;
+ return html.replace('</body>',dialog+'<script type="module" src="/adsterra-ads.js"></script></body>');
+}

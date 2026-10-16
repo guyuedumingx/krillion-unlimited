@@ -1,3 +1,4 @@
+import {adsterraCopy} from './adsterra.js';
 import {nativeHome,intentLinks} from './search-intent.js';
 import {guideSlugs,guidePage,guideLinks,guideTitle} from './search-guides.js';
 import {metaDescription} from './seo-metadata.js';
@@ -77,7 +78,7 @@ else if(slug==='themes'){body=h(keys[27])+para(28)+`<nav class="content-cards">$
 else if(slug.startsWith('themes/')){category=categories.find(c=>slug==='themes/'+c.toLowerCase());const pool=questions.filter(q=>q.category===category);title=`${ct(category,lang)} — Krillion Unlimited`;body=p(keys[29+categories.indexOf(category)])+para(28)+play(category)+h(keys[35])+para(36)+`<div class="sample-questions">${[...pool.slice(0,3),...pool.slice(-4)].map(q=>{const lq=localizeQuestion(q,lang);return `<details><summary>${esc(lq.prompt)}</summary><p>${[q.answers[0],q.answers.at(-1)].map(a=>esc(answerLabel(a.name,lang))).join(' · ')}</p><a href="${esc(q.source)}" target="_blank" rel="noopener noreferrer">${ct('Read more ↗',lang)}</a></details>`;}).join('')}</div>`;}
 else if(slug==='faq'){body=[37,15,39,41].map(i=>h(keys[i])+p(keys[i+1])).join('')+play();}
 else if(slug==='about'){body=para(44,4,6)+play();title=ct(keys[43],lang);}
-else if(slug==='privacy'){body=`<p>2026-10-10</p>`+para(42,46,47)+`<p><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare Privacy</a> · <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy</a> · <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Ads &amp; cookies</a></p>`;title=ct(keys[45],lang);}
+else if(slug==='privacy'){body=`<p>2026-10-16</p>`+para(42,46,47)+`<p>${adsterraCopy[lang].privacy}</p>`+`<p><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare Privacy</a> · <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy</a> · <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Ads &amp; cookies</a> · <a href="https://adsterra.com/privacy-policy-managed/" target="_blank" rel="noopener noreferrer">Adsterra Privacy</a></p>`;title=ct(keys[45],lang);}
 if(['','guides','themes','themes/geography','themes/sports','how-to-play','daily','tips'].includes(slug))body+=guideLinks(lang);
 if(slug.startsWith('themes/')&&!['themes/geography','themes/sports'].includes(slug))body+=`<aside class="related-guides"><nav><a href="${localPath(lang,'classroom-games')}">${esc(guideTitle(lang,'classroom-games'))}</a></nav></aside>`;
 if(['','guides','themes','themes/geography','themes/sports','how-to-play','daily','tips'].includes(slug))body+=intentLinks(lang);

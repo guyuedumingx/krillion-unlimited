@@ -4,5 +4,5 @@ export const siteSlugs=["","guides","how-to-play","scoring","tips","daily","them
 export const siteGuideSlugs=["krillion-unlimited","geography-krillion","krillion-sports","classroom-games","krillion-unblocked"];
 export const siteAliases={"unlimited-krillion":"krillion-unlimited","krillion-geography-game":"geography-krillion"};
 export const siteContentUpdated="2026-10-10";
-export const siteContentDates={"classroom-games":"2026-10-12","":"2026-10-13","guides":"2026-10-13","themes":"2026-10-13","how-to-play":"2026-10-13","daily":"2026-10-13","tips":"2026-10-13","themes/geography":"2026-10-13","themes/sports":"2026-10-13","krillion-unlimited":"2026-10-13","geography-krillion":"2026-10-13","krillion-sports":"2026-10-13","krillion-unblocked":"2026-10-13"};
+export const siteContentDates={"classroom-games":"2026-10-12","":"2026-10-13","guides":"2026-10-13","themes":"2026-10-13","how-to-play":"2026-10-13","daily":"2026-10-13","tips":"2026-10-13","themes/geography":"2026-10-13","themes/sports":"2026-10-13","krillion-unlimited":"2026-10-13","geography-krillion":"2026-10-13","krillion-sports":"2026-10-13","krillion-unblocked":"2026-10-13","privacy":"2026-10-16"};
 export const sitePath=(code,slug)=>(code==='en'?'/':'/'+code+'/')+(slug?slug+'/':'');

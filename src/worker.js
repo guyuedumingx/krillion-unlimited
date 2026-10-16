@@ -1,4 +1,5 @@
 import {siteLocales,siteSlugs,sitePath,siteGuideSlugs,siteAliases,siteContentUpdated,siteContentDates} from './site-routes.js';
+import {nativeAdConfig,injectAdsterra} from './adsterra.js';
 const paths=new Set(siteLocales.flatMap(l=>siteSlugs.map(s=>sitePath(l.code,s))));
 const esc=s=>s.replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
 const policy="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'";
@@ -28,8 +29,9 @@ if(h.get('Content-Type')?.includes('text/html')){
  h.delete('Content-Length');h.delete('ETag');h.set('Cache-Control','no-cache');h.set('Content-Language',siteLocales.find(l=>l.code===url.pathname.split('/')[1])?.tag||'en');
  const adsEnabled=hasPublisher&&env.ADSENSE_ENABLED==='true'&&asset.status===200;
  const analyticsId=env.GA4_MEASUREMENT_ID,analyticsEnabled=/^G-[A-Z0-9]{10}$/.test(analyticsId||'')&&asset.status===200;
- const usesGoogleTags=adsEnabled||analyticsEnabled;
- const nonce=usesGoogleTags?btoa(String.fromCharCode(...crypto.getRandomValues(new Uint8Array(18)))):null;
+ const adsterra=asset.status===200?nativeAdConfig(env):null;
+ const usesExternalTags=adsEnabled||analyticsEnabled||!!adsterra;
+ const nonce=usesExternalTags?btoa(String.fromCharCode(...crypto.getRandomValues(new Uint8Array(18)))):null;
  let html=(await asset.text()).replaceAll('__ORIGIN__',origin).replace('</head>',(hasPublisher?`<meta name="google-adsense-account" content="${publisher}">`:'')+'</head>');
  const hashes=await Promise.all([...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(async m=>{const hash=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(m[1]));return "'sha256-"+btoa(String.fromCharCode(...new Uint8Array(hash)))+"'";}));
  if(adsEnabled){
@@ -42,7 +44,8 @@ if(h.get('Content-Type')?.includes('text/html')){
   const location=JSON.stringify(origin+url.pathname).replaceAll('<','\\u003c');
   html=html.replace('<head>',`<head><!-- Google tag (gtag.js) --><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});gtag('js',new Date());let analyticsReferrer='';try{const ref=new URL(document.referrer);analyticsReferrer=ref.origin+ref.pathname;}catch{}gtag('config','${analyticsId}',{page_location:${location},page_referrer:analyticsReferrer,allow_google_signals:false,allow_ad_personalization_signals:false});</script><script async src="https://www.googletagmanager.com/gtag/js?id=${analyticsId}"></script>`);
  }
- if(usesGoogleTags){
+ if(adsterra){const locale=siteLocales.find(l=>l.code===url.pathname.split('/')[1])?.code||'en';html=injectAdsterra(html,adsterra,locale,url.pathname,request.cf);}
+ if(usesExternalTags){
   html=html.replace(/<script\b/g,`<script nonce="${nonce}"`);
   h.set('Cache-Control','private, no-store');
   h.set('Content-Security-Policy',`default-src 'self' https: data: blob:; script-src 'nonce-${nonce}' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https:; style-src 'self' 'unsafe-inline' https:; object-src 'none'; base-uri 'none'; frame-ancestors 'none'`);
