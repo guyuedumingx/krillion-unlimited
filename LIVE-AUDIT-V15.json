@@ -828,7 +828,12 @@
     "humanResolutionReceived": false,
     "regularChromeStatusClarified": true,
     "humanSpecialistJoined": true,
-    "pendingQuestion": "VPN/proxy use during review; clean browser tests shared one network and did not rule out IP filtering"
+    "accountRestrictionsReported": false,
+    "ownerConfirmedVpnProxy": true,
+    "humanResponse": "VPN traffic is not accepted; review from a non-VPN connection. Suggested literal inline code test; no replacement code provided.",
+    "nonVpnAcceptancePending": true,
+    "literalInlineComparisonPerformed": false,
+    "privacyDisclosuresRetained": true
   },
   "boundaries": [
     "No actual Adsterra creative observed",
