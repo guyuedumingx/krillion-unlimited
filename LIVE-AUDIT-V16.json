@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-17",
+  "origin": "https://unlimited-krillion.com/",
+  "version": "d55ce498-e306-46e6-9bf2-b62636b80f02",
+  "measurementId": "G-MMX9M6NGMS",
+  "propertyId": 558295280,
+  "streamId": 16099068812,
+  "problem": "Existing GA4 tag matched the signed-in data stream, but analytics consent was always denied with no independent analytics update path. The property initially displayed no data and zero realtime users.",
+  "changes": [
+    "Localized analytics cookie choice in seven languages",
+    "Default analytics/ad consent remain denied",
+    "Saved analytics allowance restored before GA config",
+    "Footer settings support refusal/withdrawal and GA cookie deletion",
+    "Banner reserves room for home controls and hides during gameplay",
+    "No advertising permission granted by analytics choice; AdSense and Adsterra unchanged"
+  ],
+  "automatedTests": {
+    "passed": 35,
+    "failed": 0
+  },
+  "localBrowser": {
+    "kind": "Local real Worker, Google SDK mocked; not backend receipt",
+    "languages": [
+      "en",
+      "es",
+      "pt",
+      "fr",
+      "de",
+      "zh",
+      "ja"
+    ],
+    "mobile390x844": [
+      "allow",
+      "saved permission before config",
+      "withdrawal removes test GA cookies",
+      "refusal persists",
+      "hidden during gameplay",
+      "no horizontal overflow or start-button obstruction"
+    ],
+    "small320x568": "Seven locales passed title/dock/banner separation after compact prompt CSS; earlier overlap probes failed before final fixes"
+  },
+  "liveHttp": {
+    "total": 147,
+    "passed": 147,
+    "checks": [
+      "One GA loader and analytics preference module/banner per canonical page",
+      "Existing AdSense publisher and Adsterra preferences retained",
+      "Classroom Games footer link retained"
+    ]
+  },
+  "googleTagTest": {
+    "result": "Your Google tag was detected on your website.",
+    "date": "2026-10-17"
+  },
+  "liveBrowser": {
+    "kind": "Actual Google SDK on production, mobile browser context",
+    "pageView": {
+      "status": 204,
+      "tid": "G-MMX9M6NGMS",
+      "event": "page_view",
+      "page": "https://unlimited-krillion.com/how-to-play/",
+      "consent": "G101"
+    },
+    "networkFailures": [],
+    "allowedCookieNames": [
+      "_ga_MMX9M6NGMS",
+      "_ga"
+    ],
+    "withdrawnCookieNames": [],
+    "savedWithdrawal": "deny",
+    "layoutWidths": [
+      320,
+      390
+    ],
+    "layoutNote": "Final production geometry and gameplay hiding passed with Google SDK mocked to avoid extra QA traffic"
+  },
+  "analyticsUi": {
+    "property": "unlimited-krillion",
+    "activeUsersLast30Minutes": 1,
+    "includesAcceptanceTestTraffic": true,
+    "standardReportsStillShowNoDataWarning": true,
+    "pageTitle": "How to play Krillion Unlimited",
+    "eventNames": [
+      "first_visit",
+      "page_view",
+      "scroll",
+      "session_start"
+    ]
+  },
+  "boundaries": [
+    "Test traffic is not organic user growth",
+    "Historical report processing is not verified complete",
+    "Refused consent may still send cookieless measurement; this is disclosed",
+    "No answers, local scores or query strings intentionally sent by custom events",
+    "Physical phone keyboard acceptance and advertising serving are outside this verification"
+  ],
+  "reference": "https://developers.google.com/tag-platform/security/guides/consent?consentmode=advanced"
+}

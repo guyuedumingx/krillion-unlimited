@@ -126,7 +126,7 @@ The official website integrates Google AdSense and GA4. The AdSense publisher wa
 
 GA4 loads once on each successful HTML content page; 404 pages do not receive the analytics tag. Analytics page and referrer URLs omit query strings. Game answers, local saves, and local scores are not sent as custom analytics events. Google Signals and analytics ad-personalization signals are disabled.
 
-The Google consent configuration starts with four consent types denied and uses Advanced Consent Mode. The code retains support for Google CMP consent updates; new-account CMP settings have not yet been verified. Denied consent can still allow cookieless measurement requests. The website has localized privacy disclosures and a consent settings entry where the Google CMP makes it applicable and available.
+The Google consent configuration starts with four consent types denied and uses Advanced Consent Mode. A seven-language analytics choice lets visitors allow or refuse analytics cookies, independently of advertising. The saved choice is restored before GA configuration; footer Analytics preferences allows withdrawal and clears GA cookies for the host/parent domain. Denied consent can still allow cookieless measurement requests. The prompt is hidden during gameplay and reserves space for the home start controls. Google advertising CMP settings remain separate and new-account CMP setup has not yet been verified.
 
 The Worker assigns a per-response nonce to trusted scripts and a Content Security Policy; tagged HTML uses `private, no-store` caching.
 
@@ -145,7 +145,7 @@ Each prompt has an ID, category, prompt text, registered answers and aliases, a 
 
 When changing questions or scoring, increment `BANK_VERSION` in `src/bank.js` (currently `3`). Shared challenges and saved rounds are versioned so an old link cannot silently change its questions or scores. Add translated prompts and check local alias ambiguity alongside new questions. Verify facts and source links before expanding the bank.
 
-The build validates question IDs, answer aliases, category coverage, and translated prompts. The **33 automated tests** cover deterministic decks, answer grading, correction, saves, sharing, localization, canonical routing, sitemaps, structured data, CSP, AdSense, GA4 injection, and keyboard viewport resize/pan/zoom behavior.
+The build validates question IDs, answer aliases, category coverage, and translated prompts. The **35 automated tests** cover deterministic decks, answer grading, correction, saves, sharing, localization, canonical routing, sitemaps, structured data, CSP, AdSense, GA4 injection, and keyboard viewport resize/pan/zoom behavior.
 
 ```sh
 npm run build
@@ -168,3 +168,5 @@ Classroom activities for teachers: [Classroom Games](https://unlimited-krillion.
 Mobile input: tap the answer field to open your keyboard. The game follows the visible area above it, keeps answer controls in view, and allows long prompts to scroll. Extra-short views prioritize the prompt and input until the keyboard closes. Pinch zoom remains enabled. See [V14 verification](LIVE-AUDIT-V14.json); browser simulations do not constitute physical iPhone keyboard acceptance.
 
 Optional Adsterra native advertising is configured in guide content, alongside the existing AdSense integration. It has separate visitor preferences and stays outside gameplay. See [setup and current serving limitation](ADSTERRA-SETUP.md): the provider script returned HTTP 403 on the current VPN connection. Support confirmed VPN traffic is not accepted; actual delivery on a genuine non-VPN connection remains unconfirmed.
+
+GA4 verification refreshed on **2026-10-17**: Google detected the installed tag, all 147 canonical pages passed single-tag checks, a consented production `page_view` returned HTTP 204, and the Analytics property displayed one realtime user during acceptance testing. See [verification details](LIVE-AUDIT-V16.json). Historical standard reports may still show the earlier no-data warning; realtime acceptance does not establish full historical processing.

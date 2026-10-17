@@ -64,3 +64,13 @@ body[data-tight-game] #game{top:calc(12px + env(safe-area-inset-top,0px));gap:8p
 #adsterra-consent h2{font-size:22px;line-height:1.3;color:#bce0e5}
 .adsterra-consent-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
 .adsterra-consent-actions button{min-height:44px;padding:10px 14px;border:1px solid #537e93;background:#173449;color:#e2edf7;font:14px/1.3 system-ui,sans-serif}
+
+.analytics-banner{position:fixed;right:max(12px,env(safe-area-inset-right));bottom:0;z-index:30;width:min(540px,calc(100% - 24px));padding:14px 16px max(14px,env(safe-area-inset-bottom));border:1px solid #537e93;background:#101c30;box-shadow:0 0 20px #0008;font:14px/1.45 system-ui,sans-serif;color:#d1e0ed}
+.analytics-banner[hidden],body:has(.viewport):not([data-phase=home]) .analytics-banner{display:none}
+.analytics-banner h2,#analytics-dialog h2{margin:0 0 8px;font:600 18px/1.3 system-ui,sans-serif;color:#bce0e5}
+.analytics-banner p{margin:0 0 12px}.analytics-actions{display:flex;flex-wrap:wrap;gap:8px}
+.analytics-actions button{flex:1;min-height:44px;padding:9px 12px;border:1px solid #537e93;background:#173449;color:#e2edf7;font:14px/1.3 system-ui,sans-serif}
+#analytics-dialog{font:16px/1.6 system-ui,sans-serif}#analytics-dialog .consent-settings{display:block;margin-top:16px;min-height:44px}
+body[data-phase=home] .dock{bottom:calc(max(22px,env(safe-area-inset-bottom)) + var(--analytics-banner-height,0px))}
+@media(max-height:700px){.analytics-banner h2{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.analytics-banner{max-height:40svh;overflow-y:auto}}
+@media(max-height:700px){html:has(.analytics-banner:not([hidden])) body[data-phase=home] .home-title p,html:has(.analytics-banner:not([hidden])) body[data-phase=home] .home-title .mode-label{display:none}}

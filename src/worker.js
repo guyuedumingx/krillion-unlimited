@@ -1,4 +1,5 @@
 import {siteLocales,siteSlugs,sitePath,siteGuideSlugs,siteAliases,siteContentUpdated,siteContentDates} from './site-routes.js';
+import {injectAnalyticsChoices} from './analytics.js';
 import {nativeAdConfig,injectAdsterra} from './adsterra.js';
 const paths=new Set(siteLocales.flatMap(l=>siteSlugs.map(s=>sitePath(l.code,s))));
 const esc=s=>s.replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
@@ -42,8 +43,9 @@ if(h.get('Content-Type')?.includes('text/html')){
  }
  if(analyticsEnabled){
   const location=JSON.stringify(origin+url.pathname).replaceAll('<','\\u003c');
-  html=html.replace('<head>',`<head><!-- Google tag (gtag.js) --><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});gtag('js',new Date());let analyticsReferrer='';try{const ref=new URL(document.referrer);analyticsReferrer=ref.origin+ref.pathname;}catch{}gtag('config','${analyticsId}',{page_location:${location},page_referrer:analyticsReferrer,allow_google_signals:false,allow_ad_personalization_signals:false});</script><script async src="https://www.googletagmanager.com/gtag/js?id=${analyticsId}"></script>`);
+  html=html.replace('<head>',`<head><!-- Google tag (gtag.js) --><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});try{const analyticsChoice=localStorage.getItem('krillion-analytics-consent-v1');if(analyticsChoice==='allow')gtag('consent','update',{analytics_storage:'granted'});}catch{}gtag('js',new Date());let analyticsReferrer='';try{const ref=new URL(document.referrer);analyticsReferrer=ref.origin+ref.pathname;}catch{}gtag('config','${analyticsId}',{page_location:${location},page_referrer:analyticsReferrer,allow_google_signals:false,allow_ad_personalization_signals:false});</script><script async src="https://www.googletagmanager.com/gtag/js?id=${analyticsId}"></script>`);
  }
+ if(analyticsEnabled){const locale=siteLocales.find(l=>l.code===url.pathname.split('/')[1])?.code||'en';html=injectAnalyticsChoices(html,locale);}
  if(adsterra){const locale=siteLocales.find(l=>l.code===url.pathname.split('/')[1])?.code||'en';html=injectAdsterra(html,adsterra,locale,url.pathname,request.cf);}
  if(usesExternalTags){
   html=html.replace(/<script\b/g,`<script nonce="${nonce}"`);
